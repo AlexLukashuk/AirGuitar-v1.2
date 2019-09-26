@@ -1,0 +1,138 @@
+
+/* Class = "UILabel"; text = "Useful links"; ObjectID = "0GR-xT-y5z"; */
+"0GR-xT-y5z.text" = "Useful links";
+
+/* Class = "UILabel"; text = "Rolling Stones - Paint it black"; ObjectID = "1Tw-Xu-EfU"; */
+"1Tw-Xu-EfU.text" = "Rolling Stones - Paint it black";
+
+/* Class = "UILabel"; text = "Guide"; ObjectID = "3ZO-hQ-zDB"; */
+"3ZO-hQ-zDB.text" = "Guide";
+
+/* Class = "UIButton"; normalTitle = "Play ▶️"; ObjectID = "3rV-EM-Fs5"; */
+"3rV-EM-Fs5.normalTitle" = "Play ▶️";
+
+/* Class = "UITextView"; text = "http://www.jamstudio.com/Studio/index.htm"; ObjectID = "5uE-Dv-OJy"; */
+"5uE-Dv-OJy.text" = "http://www.jamstudio.com/Studio/index.htm";
+
+/* Class = "UILabel"; text = "Alex Lukashuk"; ObjectID = "5xT-8j-cZx"; */
+"5xT-8j-cZx.text" = "Alex Lukashuk";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "6PY-Dx-XoG"; */
+"6PY-Dx-XoG.text" = "Version";
+
+/* Class = "UINavigationItem"; title = "Air Guitar"; ObjectID = "ACP-Di-O37"; */
+"ACP-Di-O37.title" = "Air Guitar";
+
+/* Class = "UILabel"; text = "Air Guitar"; ObjectID = "Anf-Zv-2GG"; */
+"Anf-Zv-2GG.text" = "Air Guitar";
+
+/* Class = "UIButton"; normalTitle = "Play ▶️"; ObjectID = "Bit-By-L5J"; */
+"Bit-By-L5J.normalTitle" = "Play ▶️";
+
+/* Class = "UILabel"; text = "11 September 2019"; ObjectID = "Cvy-oQ-INn"; */
+"Cvy-oQ-INn.text" = "11 September 2019";
+
+/* Class = "UITextView"; text = "https://www.guitarmasterclass.net/"; ObjectID = "DnO-s1-Atd"; */
+"DnO-s1-Atd.text" = "https://www.guitarmasterclass.net/";
+
+/* Class = "UITextView"; text = "http://www.chordbook.com/"; ObjectID = "DzS-8C-Ngp"; */
+"DzS-8C-Ngp.text" = "http://www.chordbook.com/";
+
+/* Class = "UIBarButtonItem"; title = "Info"; ObjectID = "EfO-Ja-Qc6"; */
+"EfO-Ja-Qc6.title" = "Info";
+
+/* Class = "UIButton"; normalTitle = "Play ▶️"; ObjectID = "GIn-1H-NPK"; */
+"GIn-1H-NPK.normalTitle" = "Play ▶️";
+
+/* Class = "UITextView"; text = "http://www.howtotuneaguitar.org/"; ObjectID = "HbY-g7-rXY"; */
+"HbY-g7-rXY.text" = "http://www.howtotuneaguitar.org/";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IYR-do-PaL"; */
+"IYR-do-PaL.text" = "Label";
+
+/* Class = "UILabel"; text = "The Beatles - Let it be"; ObjectID = "Imx-tU-hIO"; */
+"Imx-tU-hIO.text" = "The Beatles - Let it be";
+
+/* Class = "UILabel"; text = "Developer"; ObjectID = "KA9-6J-bwn"; */
+"KA9-6J-bwn.text" = "Developer";
+
+/* Class = "UILabel"; text = "1.33.5"; ObjectID = "KPn-ZP-Jv1"; */
+"KPn-ZP-Jv1.text" = "1.33.5";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "LU7-BM-OZ5"; */
+"LU7-BM-OZ5.text" = "Location";
+
+/* Class = "UILabel"; text = "Last updated"; ObjectID = "Ly2-fq-lH4"; */
+"Ly2-fq-lH4.text" = "Last updated";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MGi-5h-9a1"; */
+"MGi-5h-9a1.text" = "Label";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "NMj-pD-jRY"; */
+"NMj-pD-jRY.text" = "Player";
+
+/* Class = "UITextView"; text = "There are tons of guitar related websites on the internet. I found that very few have content easy to understand, nicely organised and worth checking out. Today I made a list of 10 useful sites that I found very interesting, educational and easy to navigate. Most of them have free content so I hope you will enjoy your time when you visit them."; ObjectID = "Okp-fy-hgL"; */
+"Okp-fy-hgL.text" = "There are tons of guitar related websites on the internet. I found that very few have content easy to understand, nicely organised and worth checking out. Today I made a list of 10 useful sites that I found very interesting, educational and easy to navigate. Most of them have free content so I hope you will enjoy your time when you visit them.";
+
+/* Class = "UIButton"; normalTitle = "Pause ⏸"; ObjectID = "TBp-eV-lFh"; */
+"TBp-eV-lFh.normalTitle" = "Pause ⏸";
+
+/* Class = "UIButton"; normalTitle = "Play ▶️"; ObjectID = "Uxr-2z-kYt"; */
+"Uxr-2z-kYt.normalTitle" = "Play ▶️";
+
+/* Class = "UITextView"; text = "https://www.justinguitar.com"; ObjectID = "WU3-XD-EUI"; */
+"WU3-XD-EUI.text" = "https://www.justinguitar.com";
+
+/* Class = "UIButton"; normalTitle = "Pause ⏸"; ObjectID = "Ybp-nP-fxh"; */
+"Ybp-nP-fxh.normalTitle" = "Pause ⏸";
+
+/* Class = "UITextView"; text = "   Want to learn how to play guitar at an entry-level? Want to tune a guitar? Or listen to classic rock tracks? Install the application Air Guitar. You can learn how to play guitar in 60 days, how to play chords, tune your guitar, get notes of legendary rock songs and useful links for beginners."; ObjectID = "ZS6-y7-NHx"; */
+"ZS6-y7-NHx.text" = "   Want to learn how to play guitar at an entry-level? Want to tune a guitar? Or listen to classic rock tracks? Install the application Air Guitar. You can learn how to play guitar in 60 days, how to play chords, tune your guitar, get notes of legendary rock songs and useful links for beginners.";
+
+/* Class = "UILabel"; text = "Volume:"; ObjectID = "Zh5-eO-tg6"; */
+"Zh5-eO-tg6.text" = "Volume:";
+
+/* Class = "UILabel"; text = "Tuner"; ObjectID = "a1E-KA-Slv"; */
+"a1E-KA-Slv.text" = "Tuner";
+
+/* Class = "UITextView"; text = "http://www.freeguitarvideos.com/"; ObjectID = "eLD-Yt-qto"; */
+"eLD-Yt-qto.text" = "http://www.freeguitarvideos.com/";
+
+/* Class = "UILabel"; text = "Number of downloads"; ObjectID = "iF1-dE-luJ"; */
+"iF1-dE-luJ.text" = "Number of downloads";
+
+/* Class = "UILabel"; text = "Guitar"; ObjectID = "iJe-b6-tix"; */
+"iJe-b6-tix.text" = "Guitar";
+
+/* Class = "UILabel"; text = ">1000000000"; ObjectID = "k4d-gj-dH4"; */
+"k4d-gj-dH4.text" = ">1000000000";
+
+/* Class = "UITextView"; text = "http://audio.tutsplus.com/"; ObjectID = "k7O-cy-nE8"; */
+"k7O-cy-nE8.text" = "http://audio.tutsplus.com/";
+
+/* Class = "UILabel"; text = "Nirvana - Smells like teen spirit"; ObjectID = "mna-iL-u51"; */
+"mna-iL-u51.text" = "Nirvana - Smells like teen spirit";
+
+/* Class = "UILabel"; text = "AC/DC - Back in black"; ObjectID = "oVT-H0-40G"; */
+"oVT-H0-40G.text" = "AC/DC - Back in black";
+
+/* Class = "UILabel"; text = "Metallica - Nothing else matters"; ObjectID = "oyu-u4-w3r"; */
+"oyu-u4-w3r.text" = "Metallica - Nothing else matters";
+
+/* Class = "UILabel"; text = "About application"; ObjectID = "t8A-oS-nub"; */
+"t8A-oS-nub.text" = "About application";
+
+/* Class = "UIButton"; normalTitle = "Play ▶️"; ObjectID = "tZe-fu-GEt"; */
+"tZe-fu-GEt.normalTitle" = "Play ▶️";
+
+/* Class = "UILabel"; text = "Metallica - Nothing else matters"; ObjectID = "ueK-s5-oYQ"; */
+"ueK-s5-oYQ.text" = "Metallica - Nothing else matters";
+
+/* Class = "UIButton"; normalTitle = "Pause ⏸"; ObjectID = "vJM-hd-nMh"; */
+"vJM-hd-nMh.normalTitle" = "Pause ⏸";
+
+/* Class = "UIButton"; normalTitle = "Pause ⏸"; ObjectID = "xDB-Dc-I3g"; */
+"xDB-Dc-I3g.normalTitle" = "Pause ⏸";
+
+/* Class = "UIButton"; normalTitle = "Pause ⏸"; ObjectID = "xNT-NB-hgV"; */
+"xNT-NB-hgV.normalTitle" = "Pause ⏸";
