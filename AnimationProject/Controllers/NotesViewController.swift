@@ -10,12 +10,15 @@ import UIKit
 
 class NotesViewController: UIViewController {
     
+    @IBOutlet weak var notesTabBarItem: UITabBarItem!
+    
     var name = ""
     var imageName = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        notesTabBarItem.badgeValue = nil
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

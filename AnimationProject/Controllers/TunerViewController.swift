@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class TunerViewController: UIViewController {
 
     @IBOutlet weak var firstString: UIView!
     @IBOutlet weak var secondString: UIView!
@@ -17,12 +17,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var fouthString: UIView!
     @IBOutlet weak var fifthString: UIView!
     @IBOutlet weak var sixthString: UIView!
+    @IBOutlet weak var tunerTabBarItem: UITabBarItem!
     
     var stringSound: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tunerTabBarItem.badgeValue = nil
     }
     
     override func viewWillAppear(_ animated: Bool) {

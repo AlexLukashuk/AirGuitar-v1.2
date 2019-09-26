@@ -12,7 +12,6 @@
 		750786A023324A5A00FBFD89 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507869F23324A5A00FBFD89 /* InfoViewController.swift */; };
 		750786A223325C6300FBFD89 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750786A123325C6300FBFD89 /* Company.swift */; };
 		750786A4233263BF00FBFD89 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750786A3233263BF00FBFD89 /* LinksViewController.swift */; };
-		75A5B8CD233BBAF000BB68E3 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5B8CC233BBAF000BB68E3 /* Protocols.swift */; };
 		75C31875233CDA4E00F8B241 /* Tabs.json in Resources */ = {isa = PBXBuildFile; fileRef = 75C31874233CDA4E00F8B241 /* Tabs.json */; };
 		75C3187C233CDACE00F8B241 /* fouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C31876233CDACE00F8B241 /* fouth.mp3 */; };
 		75C3187D233CDACE00F8B241 /* fifth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C31877233CDACE00F8B241 /* fifth.mp3 */; };
@@ -26,7 +25,7 @@
 		75C3188A233CDAFA00F8B241 /* TheRollingStones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C31885233CDAFA00F8B241 /* TheRollingStones.mp3 */; };
 		75C3188B233CDAFB00F8B241 /* TheBeatles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C31886233CDAFA00F8B241 /* TheBeatles.mp3 */; };
 		75DF3036232A598B00D2D9A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3035232A598B00D2D9A2 /* AppDelegate.swift */; };
-		75DF3038232A598B00D2D9A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3037232A598B00D2D9A2 /* ViewController.swift */; };
+		75DF3038232A598B00D2D9A2 /* TunerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3037232A598B00D2D9A2 /* TunerViewController.swift */; };
 		75DF303B232A598B00D2D9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DF3039232A598B00D2D9A2 /* Main.storyboard */; };
 		75DF3040232A598D00D2D9A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DF303E232A598D00D2D9A2 /* LaunchScreen.storyboard */; };
 		75DF3075232A888600D2D9A2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3074232A888600D2D9A2 /* MenuViewController.swift */; };
@@ -44,7 +43,6 @@
 		7507869F23324A5A00FBFD89 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		750786A123325C6300FBFD89 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		750786A3233263BF00FBFD89 /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
-		75A5B8CC233BBAF000BB68E3 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		75AAD526233A5D6400407DBD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75C31874233CDA4E00F8B241 /* Tabs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tabs.json; sourceTree = "<group>"; };
 		75C31876233CDACE00F8B241 /* fouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fouth.mp3; sourceTree = "<group>"; };
@@ -60,7 +58,7 @@
 		75C31886233CDAFA00F8B241 /* TheBeatles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TheBeatles.mp3; sourceTree = "<group>"; };
 		75DF3032232A598B00D2D9A2 /* AnimationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DF3035232A598B00D2D9A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75DF3037232A598B00D2D9A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75DF3037232A598B00D2D9A2 /* TunerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerViewController.swift; sourceTree = "<group>"; };
 		75DF303A232A598B00D2D9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75DF303F232A598D00D2D9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75DF3074232A888600D2D9A2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +104,7 @@
 				750786922330F88B00FBFD89 /* PlayerViewController.swift */,
 				75DF3099232F9DEF00D2D9A2 /* TheoryViewController.swift */,
 				75DF3076232BADC400D2D9A2 /* TabsViewController.swift */,
-				75DF3037232A598B00D2D9A2 /* ViewController.swift */,
+				75DF3037232A598B00D2D9A2 /* TunerViewController.swift */,
 				75DF307C232BC1C200D2D9A2 /* ZoomViewController.swift */,
 			);
 			path = Controllers;
@@ -117,7 +115,6 @@
 			children = (
 				75DF3078232BB1CC00D2D9A2 /* CollectionViewCell.swift */,
 				750786A123325C6300FBFD89 /* Company.swift */,
-				75A5B8CC233BBAF000BB68E3 /* Protocols.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -251,13 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A5B8CD233BBAF000BB68E3 /* Protocols.swift in Sources */,
 				75078691232FC98300FBFD89 /* DetailViewController.swift in Sources */,
 				750786A023324A5A00FBFD89 /* InfoViewController.swift in Sources */,
 				75DF3079232BB1CC00D2D9A2 /* CollectionViewCell.swift in Sources */,
 				75DF3077232BADC400D2D9A2 /* TabsViewController.swift in Sources */,
 				75DF307D232BC1C200D2D9A2 /* ZoomViewController.swift in Sources */,
-				75DF3038232A598B00D2D9A2 /* ViewController.swift in Sources */,
+				75DF3038232A598B00D2D9A2 /* TunerViewController.swift in Sources */,
 				75DF309C232FAF4300D2D9A2 /* NotesViewController.swift in Sources */,
 				75DF3075232A888600D2D9A2 /* MenuViewController.swift in Sources */,
 				75DF309A232F9DEF00D2D9A2 /* TheoryViewController.swift in Sources */,
@@ -341,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -396,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

@@ -10,9 +10,12 @@ import UIKit
 
 class TheoryViewController: UIViewController {
 
+    @IBOutlet weak var theoryTabBarItem: UITabBarItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        theoryTabBarItem.badgeValue = nil
     }
 
 }

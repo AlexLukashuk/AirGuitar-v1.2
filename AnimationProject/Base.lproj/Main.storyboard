@@ -1,433 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P7W-JF-vPb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ysS-tr-Vua">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Air Guitar-->
-        <scene sceneID="MEA-Bf-vZm">
-            <objects>
-                <viewController id="KH8-WD-yXZ" customClass="MenuViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3xb-wU-aoE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pb-RO-9QE">
-                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXT-7H-Kxh">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="557.66666666666663"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JLi-mq-De1">
-                                                <rect key="frame" x="10" y="10" width="172.66666666666666" height="172.66666666666666"/>
-                                                <color key="backgroundColor" red="0.50850064765129532" green="0.14661057725148038" blue="0.17738429295760377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="JLi-mq-De1" secondAttribute="height" id="1sz-xJ-1op"/>
-                                                </constraints>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment>
-                                                            <string key="content">🎵
-</string>
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="100" name=".AppleColorEmojiUI"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="  ">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="Monaco"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="Tabs">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="AmericanTypewriter"/>
-                                                                <font key="NSOriginalFont" size="30" name="Monaco"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="57.5"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="JuU-I5-74j" kind="show" id="8Ab-cY-wZF"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rfu-0s-Ivr">
-                                                <rect key="frame" x="192.66666666666663" y="10" width="172.33333333333337" height="172.66666666666666"/>
-                                                <color key="backgroundColor" red="0.50850064765129532" green="0.14661057725148038" blue="0.17738429295760377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="Rfu-0s-Ivr" secondAttribute="height" id="8B0-1J-Bz2"/>
-                                                </constraints>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="🎸">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="100" name="AppleColorEmoji"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment>
-                                                            <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name=".SFNSDisplay"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content=" ">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name=".SFNSDisplay"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="Tuner">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="AmericanTypewriter"/>
-                                                                <font key="NSOriginalFont" size="30" name="AmericanTypewriter"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="57.5"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="show" id="KNl-mB-qUv"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ctq-9l-Att">
-                                                <rect key="frame" x="192.66666666666663" y="192.66666666666669" width="172.33333333333337" height="172.33333333333331"/>
-                                                <color key="backgroundColor" red="0.50850064765129532" green="0.14661057725148038" blue="0.17738429295760377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="Ctq-9l-Att" secondAttribute="height" id="WeP-TL-ytf"/>
-                                                </constraints>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment>
-                                                            <string key="content">🎼
-</string>
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="100" name=".AppleColorEmojiUI"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content=" ">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="Monaco"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="Guide">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="AmericanTypewriter"/>
-                                                                <font key="NSOriginalFont" size="30" name="AmericanTypewriter"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="57.5"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="JSa-6e-X2G" kind="show" id="D06-pD-vCJ"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qse-LM-Asz">
-                                                <rect key="frame" x="10" y="375" width="172.66666666666666" height="172.66666666666663"/>
-                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="Qse-LM-Asz" secondAttribute="height" id="iH1-rY-3oS"/>
-                                                </constraints>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment>
-                                                            <string key="content">🎧
-</string>
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="100" name=".AppleColorEmojiUI"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content=" ">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="Monaco"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="Player">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="AmericanTypewriter"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="57.5"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="DXI-yF-bzU" kind="show" identifier="Player" id="f7r-Mj-Yz0"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qwh-Ve-s0d">
-                                                <rect key="frame" x="192.66666666666663" y="375" width="172.33333333333337" height="172.66666666666663"/>
-                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="Qwh-Ve-s0d" secondAttribute="height" id="rn5-B7-Vgq"/>
-                                                </constraints>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment>
-                                                            <string key="content">🔗
-</string>
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30145" green="0.01093" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="100" name="AppleColorEmoji"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content=" ">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30145" green="0.01093" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="Monaco"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="Links">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30145" green="0.01093" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="AmericanTypewriter"/>
-                                                                <font key="NSOriginalFont" size="30" name="AmericanTypewriter"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="57.5"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="bfZ-Ri-8AH" kind="show" identifier="Links" id="gdy-5M-a89"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e09-9X-kXA">
-                                                <rect key="frame" x="10" y="192.66666666666669" width="172.66666666666666" height="172.33333333333331"/>
-                                                <color key="backgroundColor" red="0.50850064765129532" green="0.14661057725148038" blue="0.17738429295760377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="e09-9X-kXA" secondAttribute="height" id="ly9-aj-YYN"/>
-                                                </constraints>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment>
-                                                            <string key="content">🎶
-</string>
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30145" green="0.01093" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="100" name=".AppleColorEmojiUI"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="  ">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30145" green="0.01093" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="Monaco"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="Notes">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.30145" green="0.01093" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="30" name="AmericanTypewriter"/>
-                                                                <font key="NSOriginalFont" size="30" name="AmericanTypewriter"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="57.5"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="bbe-Bh-gzH" kind="show" identifier="Tuner" id="jgt-fb-QMc"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.69353141191709844" green="0.1987422184340483" blue="0.24446274266731602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="Rfu-0s-Ivr" secondAttribute="trailing" constant="10" id="1sw-aA-Iin"/>
-                                            <constraint firstItem="Qse-LM-Asz" firstAttribute="width" secondItem="Qse-LM-Asz" secondAttribute="height" id="5jP-Nj-N4u"/>
-                                            <constraint firstItem="Qse-LM-Asz" firstAttribute="leading" secondItem="sXT-7H-Kxh" secondAttribute="leading" constant="10" id="6Xl-dZ-weV"/>
-                                            <constraint firstItem="Ctq-9l-Att" firstAttribute="top" secondItem="JLi-mq-De1" secondAttribute="bottom" constant="10" id="9HI-TS-kDV"/>
-                                            <constraint firstItem="Qwh-Ve-s0d" firstAttribute="width" secondItem="Qse-LM-Asz" secondAttribute="width" id="Egl-8h-qyP"/>
-                                            <constraint firstAttribute="bottom" secondItem="Qse-LM-Asz" secondAttribute="bottom" constant="10" id="HjM-kZ-oXJ"/>
-                                            <constraint firstItem="Qwh-Ve-s0d" firstAttribute="top" secondItem="e09-9X-kXA" secondAttribute="bottom" constant="10" id="Luf-tQ-dxd"/>
-                                            <constraint firstItem="JLi-mq-De1" firstAttribute="leading" secondItem="sXT-7H-Kxh" secondAttribute="leading" constant="10" id="O1E-RQ-swh"/>
-                                            <constraint firstItem="Qwh-Ve-s0d" firstAttribute="leading" secondItem="Qse-LM-Asz" secondAttribute="trailing" constant="10" id="RWd-WB-a4A"/>
-                                            <constraint firstItem="Ctq-9l-Att" firstAttribute="leading" secondItem="e09-9X-kXA" secondAttribute="trailing" constant="10" id="Rln-sS-o4Y"/>
-                                            <constraint firstItem="Qwh-Ve-s0d" firstAttribute="width" secondItem="Qwh-Ve-s0d" secondAttribute="height" id="TB3-K7-QFZ"/>
-                                            <constraint firstItem="Rfu-0s-Ivr" firstAttribute="width" secondItem="JLi-mq-De1" secondAttribute="width" id="X4X-XS-F9l"/>
-                                            <constraint firstItem="e09-9X-kXA" firstAttribute="leading" secondItem="sXT-7H-Kxh" secondAttribute="leading" constant="10" id="XyU-Iz-0Rf"/>
-                                            <constraint firstItem="Rfu-0s-Ivr" firstAttribute="top" secondItem="sXT-7H-Kxh" secondAttribute="top" constant="10" id="Zrz-ko-f9a"/>
-                                            <constraint firstItem="Qse-LM-Asz" firstAttribute="width" secondItem="Qse-LM-Asz" secondAttribute="height" id="bX5-2H-MDf"/>
-                                            <constraint firstItem="Ctq-9l-Att" firstAttribute="width" secondItem="e09-9X-kXA" secondAttribute="width" id="buK-Hx-9pV"/>
-                                            <constraint firstAttribute="trailing" secondItem="Ctq-9l-Att" secondAttribute="trailing" constant="10" id="eNy-Fd-YAY"/>
-                                            <constraint firstAttribute="trailing" secondItem="Qwh-Ve-s0d" secondAttribute="trailing" constant="10" id="klW-Vx-CQm"/>
-                                            <constraint firstItem="Ctq-9l-Att" firstAttribute="width" secondItem="Ctq-9l-Att" secondAttribute="height" id="mcR-cy-2Ag"/>
-                                            <constraint firstItem="e09-9X-kXA" firstAttribute="width" secondItem="e09-9X-kXA" secondAttribute="height" id="nTT-dN-v20"/>
-                                            <constraint firstItem="JLi-mq-De1" firstAttribute="top" secondItem="sXT-7H-Kxh" secondAttribute="top" constant="10" id="qrm-eE-qTp"/>
-                                            <constraint firstItem="Qse-LM-Asz" firstAttribute="top" secondItem="e09-9X-kXA" secondAttribute="bottom" constant="10" id="rgW-hv-8b8"/>
-                                            <constraint firstItem="Qwh-Ve-s0d" firstAttribute="width" secondItem="Qwh-Ve-s0d" secondAttribute="height" id="sHm-5W-00x"/>
-                                            <constraint firstItem="Rfu-0s-Ivr" firstAttribute="leading" secondItem="JLi-mq-De1" secondAttribute="trailing" constant="10" id="t28-1x-7zV"/>
-                                            <constraint firstItem="e09-9X-kXA" firstAttribute="top" secondItem="JLi-mq-De1" secondAttribute="bottom" constant="10" id="zNV-RG-ANV"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="sXT-7H-Kxh" firstAttribute="leading" secondItem="1pb-RO-9QE" secondAttribute="leading" id="1Xk-65-bjg"/>
-                                    <constraint firstItem="sXT-7H-Kxh" firstAttribute="top" secondItem="1pb-RO-9QE" secondAttribute="top" id="K7n-Oc-8uX"/>
-                                    <constraint firstAttribute="trailing" secondItem="sXT-7H-Kxh" secondAttribute="trailing" id="TRT-xN-cJY"/>
-                                    <constraint firstAttribute="bottom" secondItem="sXT-7H-Kxh" secondAttribute="bottom" id="bDA-Z7-BIL"/>
-                                    <constraint firstItem="sXT-7H-Kxh" firstAttribute="width" secondItem="1pb-RO-9QE" secondAttribute="width" id="lmI-h7-Z8b"/>
-                                </constraints>
-                            </scrollView>
-                            <tabBar contentMode="scaleToFill" barStyle="black" itemPositioning="centered" id="PrK-Ep-6fM">
-                                <rect key="frame" x="0.0" y="730" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <tabBarItem tag="5" badgeValue="1" systemItem="favorites" id="Blq-Rl-fWa">
-                                        <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </tabBarItem>
-                                    <tabBarItem tag="4" systemItem="downloads" id="cqc-DY-uc4"/>
-                                    <tabBarItem tag="3" badgeValue="3" systemItem="mostViewed" id="fbh-LB-9ml"/>
-                                    <tabBarItem tag="2" systemItem="contacts" id="xrV-tP-R9C"/>
-                                    <tabBarItem tag="1" systemItem="more" id="f8B-qR-5VQ"/>
-                                </items>
-                                <color key="tintColor" red="0.51952928304672241" green="0.15608653426170349" blue="0.17807072401046753" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="barTintColor" red="0.51952928304672241" green="0.15608653426170349" blue="0.17807072401046753" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="selectedImageTintColor" red="0.32857763767242432" green="0.035747293382883072" blue="0.016214668750762939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <outlet property="delegate" destination="KH8-WD-yXZ" id="e6l-YV-9RB"/>
-                                </connections>
-                            </tabBar>
-                        </subviews>
-                        <color key="backgroundColor" red="0.69353141190000001" green="0.1987422184" blue="0.24446274270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="1pb-RO-9QE" firstAttribute="bottom" secondItem="eC4-uS-RYH" secondAttribute="bottom" id="FDe-s4-TdJ"/>
-                            <constraint firstItem="eC4-uS-RYH" firstAttribute="trailing" secondItem="1pb-RO-9QE" secondAttribute="trailing" id="Fya-fm-TlC"/>
-                            <constraint firstItem="1pb-RO-9QE" firstAttribute="leading" secondItem="eC4-uS-RYH" secondAttribute="leading" id="HDI-Pi-I6w"/>
-                            <constraint firstItem="1pb-RO-9QE" firstAttribute="top" secondItem="eC4-uS-RYH" secondAttribute="top" id="aw4-dS-oS6"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="eC4-uS-RYH"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Air Guitar" id="ACP-Di-O37">
-                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_3x" id="tYN-0O-0sN">
-                            <inset key="imageInsets" minX="-20" minY="0.0" maxX="0.0" maxY="0.0"/>
-                            <color key="tintColor" red="0.32857763769999998" green="0.035747293380000003" blue="0.016214668750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <connections>
-                                <action selector="slideMenuBarButtonAction:" destination="KH8-WD-yXZ" id="fEM-d6-wr4"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Info" id="EfO-Ja-Qc6">
-                            <color key="tintColor" red="0.32857763769999998" green="0.035747293380000003" blue="0.016214668750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <connections>
-                                <segue destination="K3C-am-bTM" kind="show" identifier="Info" id="w5q-IG-DE0"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="airGuitarTabBar" destination="PrK-Ep-6fM" id="ma4-Sw-0oL"/>
-                        <outlet property="contactsTabBarItem" destination="xrV-tP-R9C" id="jxs-tJ-jPP"/>
-                        <outlet property="downloadsTabBarItem" destination="cqc-DY-uc4" id="H2f-Sv-n1w"/>
-                        <outlet property="favoritesTabBarItem" destination="Blq-Rl-fWa" id="8MT-f7-KZZ"/>
-                        <outlet property="moreTabBarItem" destination="f8B-qR-5VQ" id="Drk-TX-cCs"/>
-                        <outlet property="mostViewedTabBarItem" destination="fbh-LB-9ml" id="YdN-GG-RRn"/>
-                        <outlet property="slideMenuBarButton" destination="tYN-0O-0sN" id="P9B-wV-UqW"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Cd2-2t-OEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2135" y="-1206"/>
-        </scene>
-        <!--Item-->
+        <!--Tuner-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TunerViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="how-to-draw-guitar-chords-a-body-cartoon-from-coco-1084x1681 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="gWK-ro-pfx">
-                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                                 <color key="backgroundColor" red="0.69353141190000001" green="0.1987422184" blue="0.24446274270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fg5-M2-TFO">
-                                <rect key="frame" x="160" y="88.000000000000028" width="5.6666666666666572" height="486.66666666666674"/>
+                                <rect key="frame" x="160" y="88.000000000000028" width="5.6666666666666572" height="437.66666666666674"/>
                                 <color key="backgroundColor" red="0.30144915803108807" green="0.010926246371371061" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="5.5" id="FDk-ny-VXv"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lBi-ye-ZAK">
-                                <rect key="frame" x="170" y="88.000000000000028" width="5" height="486.66666666666674"/>
+                                <rect key="frame" x="170" y="88.000000000000028" width="5" height="437.66666666666674"/>
                                 <color key="backgroundColor" red="0.46150420981347151" green="0.016727559402660148" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="5" id="VZw-sf-23f"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2M-mE-EYL" userLabel="Third String">
-                                <rect key="frame" x="181" y="88.000000000000028" width="4.6666666666666572" height="486.66666666666674"/>
+                                <rect key="frame" x="181" y="88.000000000000028" width="4.6666666666666572" height="437.66666666666674"/>
                                 <color key="backgroundColor" red="0.55863422923005168" green="0.020248108370629608" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="4.5" id="OJO-9b-mzr"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36p-co-lfD">
-                                <rect key="frame" x="192" y="88.000000000000028" width="4" height="486.66666666666674"/>
+                                <rect key="frame" x="192" y="88.000000000000028" width="4" height="437.66666666666674"/>
                                 <color key="backgroundColor" red="0.65335573179067363" green="0.023681358874308497" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="4" id="SDH-uO-Pge"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qa7-St-hsl" userLabel="Fifth String">
-                                <rect key="frame" x="203" y="88.000000000000028" width="3.6666666666666572" height="486.66666666666674"/>
+                                <rect key="frame" x="203" y="88.000000000000028" width="3.6666666666666572" height="437.66666666666674"/>
                                 <color key="backgroundColor" red="0.78232270069999998" green="0.028355861480000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="3.5" id="VMN-Xk-NJg"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="72q-oH-Dsl">
-                                <rect key="frame" x="212.66666666666666" y="88.000000000000028" width="3" height="486.66666666666674"/>
+                                <rect key="frame" x="212.66666666666666" y="88.000000000000028" width="3" height="437.66666666666674"/>
                                 <color key="backgroundColor" red="1" green="0.036245735243500832" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="3" id="vzK-jl-DC6"/>
@@ -479,7 +107,7 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="QzI-dJ-hJp"/>
+                    <tabBarItem key="tabBarItem" title="Tuner" image="tuningfork" catalog="system" id="QzI-dJ-hJp"/>
                     <navigationItem key="navigationItem" id="Mfv-16-KI7"/>
                     <connections>
                         <outlet property="fifthString" destination="Qa7-St-hsl" id="TGR-xa-bf6"/>
@@ -488,13 +116,14 @@ Cg
                         <outlet property="secondString" destination="lBi-ye-ZAK" id="V5w-Wl-lfz"/>
                         <outlet property="sixthString" destination="72q-oH-Dsl" id="dMg-hA-Yn3"/>
                         <outlet property="thirdString" destination="c2M-mE-EYL" id="OQi-s9-nLL"/>
+                        <outlet property="tunerTabBarItem" destination="QzI-dJ-hJp" id="hmq-6G-NWb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3695.1999999999998" y="-463.30049261083747"/>
+            <point key="canvasLocation" x="2084" y="-1434"/>
         </scene>
-        <!--Item-->
+        <!--Tabs-->
         <scene sceneID="Bgk-qd-ROs">
             <objects>
                 <viewController id="JuU-I5-74j" customClass="TabsViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -561,39 +190,40 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zUC-kh-wn1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="GLo-6y-4l6"/>
-                    <navigationItem key="navigationItem" id="Igy-EU-x0f"/>
+                    <tabBarItem key="tabBarItem" title="Tabs" image="doc.plaintext" catalog="system" id="GLo-6y-4l6"/>
+                    <navigationItem key="navigationItem" title="Tabs" id="Igy-EU-x0f"/>
                     <connections>
                         <outlet property="collectionView" destination="U4r-ec-k3s" id="8aj-Pq-JEh"/>
-                        <segue destination="VWN-5J-YVr" kind="show" identifier="Zoom" id="CgJ-Va-1kr"/>
+                        <outlet property="tabsTabBarItem" destination="GLo-6y-4l6" id="P4t-D2-38N"/>
+                        <segue destination="VWN-5J-YVr" kind="showDetail" identifier="Zoom" id="UyC-vj-Y9z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wC1-mt-Flx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2134" y="-463"/>
+            <point key="canvasLocation" x="-191" y="-1434"/>
         </scene>
         <!--Zoom View Controller-->
         <scene sceneID="uBm-Pv-Ouc">
             <objects>
                 <viewController storyboardIdentifier="ZoomViewController" id="VWN-5J-YVr" customClass="ZoomViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ogu-DD-95G">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYR-do-PaL">
-                                <rect key="frame" x="25" y="98" width="325" height="58"/>
+                                <rect key="frame" x="25" y="10" width="325" height="58"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
                                 <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wt0-qg-kZc">
-                                <rect key="frame" x="25" y="171" width="325" height="300"/>
+                                <rect key="frame" x="25" y="83" width="325" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="G6R-UN-I7F"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="jKC-ZC-kUc">
-                                <rect key="frame" x="25" y="496" width="325" height="272"/>
+                                <rect key="frame" x="25" y="408" width="325" height="306"/>
                                 <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -623,9 +253,9 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vx-eJ-Xny" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2924" y="-463"/>
+            <point key="canvasLocation" x="529" y="-1434"/>
         </scene>
-        <!--Theory View Controller-->
+        <!--Guide-->
         <scene sceneID="Jq2-2T-jye">
             <objects>
                 <viewController id="JSa-6e-X2G" customClass="TheoryViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -634,7 +264,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YBA-oF-CIV">
-                                <rect key="frame" x="15" y="166" width="345" height="612"/>
+                                <rect key="frame" x="15" y="166" width="345" height="563"/>
                                 <attributedString key="attributedText">
                                     <fragment content="The Beginner’s Guide to Learning the Guitar in 60 Days">
                                         <attributes>
@@ -1188,13 +818,19 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GkT-s6-9XJ"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Guide" image="book" catalog="system" badgeValue="6" id="jaa-eG-Xfk">
+                        <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="SGR-H5-Ezc"/>
+                    <connections>
+                        <outlet property="theoryTabBarItem" destination="jaa-eG-Xfk" id="B1d-jh-BDk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Olu-Kk-ctL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4474" y="-1524"/>
+            <point key="canvasLocation" x="1321" y="-2523"/>
         </scene>
-        <!--Item-->
+        <!--Info-->
         <scene sceneID="gpu-Fa-67s">
             <objects>
                 <viewController id="K3C-am-bTM" customClass="InfoViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -1203,7 +839,7 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Qs-3z-149">
-                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x6b-D2-5cI">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="679"/>
@@ -1371,17 +1007,49 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pcH-qF-RRM"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="31k-4O-0st"/>
+                    <tabBarItem key="tabBarItem" title="Info" image="info.circle" catalog="system" badgeValue="1" id="31k-4O-0st">
+                        <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="nVr-aQ-RT5"/>
                     <connections>
+                        <outlet property="infoTabBarItem" destination="31k-4O-0st" id="ltA-9E-KAF"/>
                         <outlet property="mapView" destination="a05-HP-KvL" id="9Wz-IF-wWP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LnQ-j0-ikF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1366" y="-463"/>
+            <point key="canvasLocation" x="1321" y="-1434"/>
         </scene>
-        <!--Notes View Controller-->
+        <!--AirGuitar-->
+        <scene sceneID="GFp-GQ-U5h">
+            <objects>
+                <navigationController title="AirGuitar" id="ysS-tr-Vua" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UVI-og-Noy">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.32857763769999998" green="0.035747293380000003" blue="0.016214668750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.32857763769999998" green="0.035747293380000003" blue="0.016214668750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.55611755100000004" green="0.16792453260000001" blue="0.19483693429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="1"/>
+                            <color key="textColor" red="0.32857763769999998" green="0.035747293380000003" blue="0.016214668750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.32857763769999998" green="0.035747293380000003" blue="0.016214668750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bP6-tl-78G">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="cA3-bd-hfy" kind="relationship" relationship="rootViewController" id="DTh-4s-yyA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dF8-ne-OWT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191" y="-2172"/>
+        </scene>
+        <!--Notes-->
         <scene sceneID="sLU-eX-JGA">
             <objects>
                 <viewController id="bbe-Bh-gzH" customClass="NotesViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -1583,25 +1251,27 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MPe-bs-UAK"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Notes" image="music.note.list" catalog="system" badgeValue="3" id="S8t-IS-hrt"/>
                     <navigationItem key="navigationItem" id="GHv-8B-Xfl"/>
                     <connections>
-                        <segue destination="rdN-cd-Cc7" kind="show" identifier="NotesIdentifier" id="mvz-ds-9Hy"/>
+                        <outlet property="notesTabBarItem" destination="S8t-IS-hrt" id="Qgs-fs-dzT"/>
+                        <segue destination="rdN-cd-Cc7" kind="showDetail" identifier="NotesIdentifier" id="dDF-qg-bhF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zam-6E-bWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2924" y="-1892"/>
+            <point key="canvasLocation" x="1322" y="-3236"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="MuN-sw-5aE">
             <objects>
                 <viewController id="rdN-cd-Cc7" customClass="DetailViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7wM-Hj-ie8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metallica - Nothing else matters" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyu-u4-w3r">
-                                <rect key="frame" x="25" y="113" width="325" height="100"/>
+                                <rect key="frame" x="25" y="25" width="325" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="bJL-iS-GwR"/>
                                 </constraints>
@@ -1610,10 +1280,10 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="64i-VU-YnQ">
-                                <rect key="frame" x="15" y="221" width="345" height="524"/>
+                                <rect key="frame" x="15" y="133" width="345" height="558"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yhf-Bv-P9T">
-                                        <rect key="frame" x="0.0" y="0.0" width="345" height="524"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="558"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.69353141190000001" green="0.1987422184" blue="0.24446274270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1625,7 +1295,7 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                                 </constraints>
                             </view>
                             <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gW-qE-rQ8">
-                                <rect key="frame" x="15" y="238" width="345" height="500"/>
+                                <rect key="frame" x="15" y="150" width="345" height="534"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -1655,9 +1325,9 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9bp-AD-pG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3695" y="-1892"/>
+            <point key="canvasLocation" x="2084" y="-3236"/>
         </scene>
-        <!--Item-->
+        <!--Links-->
         <scene sceneID="tlW-4h-noB">
             <objects>
                 <viewController id="bfZ-Ri-8AH" customClass="LinksViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -1831,12 +1501,15 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gIX-dt-9cC"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="yId-iw-Aue"/>
+                    <tabBarItem key="tabBarItem" title="Links" image="link.circle" catalog="system" badgeValue="2" id="yId-iw-Aue">
+                        <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="aTH-dx-tYF"/>
                     <connections>
                         <outlet property="fifthLinkTextView" destination="k7O-cy-nE8" id="Ymo-2g-361"/>
                         <outlet property="firstLinkTextView" destination="WU3-XD-EUI" id="oxS-8p-rQ1"/>
                         <outlet property="fouthLinkTextView" destination="DzS-8C-Ngp" id="O9o-xG-tvi"/>
+                        <outlet property="linkTabBarItem" destination="yId-iw-Aue" id="hH1-hc-teA"/>
                         <outlet property="secondLinkTextView" destination="5uE-Dv-OJy" id="Ulo-LM-o4h"/>
                         <outlet property="seventhLinkTextView" destination="eLD-Yt-qto" id="TwK-WU-xjs"/>
                         <outlet property="sixthLinkTextView" destination="HbY-g7-rXY" id="0En-SB-g1g"/>
@@ -1845,9 +1518,9 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qfv-JO-TaN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4474" y="-828"/>
+            <point key="canvasLocation" x="2084" y="-2523"/>
         </scene>
-        <!--Player View Controller-->
+        <!--Player-->
         <scene sceneID="5zJ-oS-BD0">
             <objects>
                 <viewController id="DXI-yF-bzU" customClass="PlayerViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -2267,37 +1940,46 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="B5x-iH-8my"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Player" image="play.circle" catalog="system" badgeValue="5" id="hGI-xG-kd6">
+                        <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="0NR-xr-Dl0"/>
                     <size key="freeformSize" width="414" height="2950"/>
                     <connections>
+                        <outlet property="playerTabBarItem" destination="hGI-xG-kd6" id="Kgp-Vc-4Tx"/>
                         <outlet property="volumeSlider" destination="qgD-MC-qOY" id="Zfv-iH-EE8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LVA-4r-XhM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5262" y="-1184"/>
+            <point key="canvasLocation" x="2894" y="-2172"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="oFu-IC-cwe">
+        <!--Tab Bar Controller-->
+        <scene sceneID="GsW-cP-VA6">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P7W-JF-vPb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="UaO-Nh-pRl"/>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cA3-bd-hfy" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8kU-5l-C3F">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                    <navigationItem key="navigationItem" id="dIk-ku-nwo"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="Jyx-Ms-8i0">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n8D-hT-dmt">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
+                        <color key="backgroundColor" red="0.32857763769999998" green="0.035747293380000003" blue="0.016214668750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.51952928300000001" green="0.1560865343" blue="0.17807072400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.32857763769999998" green="0.035747293380000003" blue="0.016214668750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
                     <connections>
-                        <segue destination="KH8-WD-yXZ" kind="relationship" relationship="rootViewController" id="TfM-5o-rLH"/>
+                        <segue destination="bbe-Bh-gzH" kind="relationship" relationship="viewControllers" id="pLE-11-Ldq"/>
+                        <segue destination="JSa-6e-X2G" kind="relationship" relationship="viewControllers" id="DZ9-b4-9tZ"/>
+                        <segue destination="DXI-yF-bzU" kind="relationship" relationship="viewControllers" id="7fS-Lb-9jj"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="9li-9Y-REX"/>
+                        <segue destination="JuU-I5-74j" kind="relationship" relationship="viewControllers" id="2eq-fg-iTb"/>
+                        <segue destination="K3C-am-bTM" kind="relationship" relationship="viewControllers" id="1HT-Zd-2V6"/>
+                        <segue destination="bfZ-Ri-8AH" kind="relationship" relationship="viewControllers" id="oxP-gX-ttz"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qX9-tj-J4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxl-GL-5yB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1367" y="-1206"/>
+            <point key="canvasLocation" x="529" y="-2172"/>
         </scene>
     </scenes>
     <resources>
@@ -2306,7 +1988,13 @@ In order to play your favorite song, you’ll need to learn guitar chords. Use t
         <image name="NirvanaPhoto" width="640" height="640"/>
         <image name="TheRollingStonesPhoto" width="770" height="770"/>
         <image name="acdcPhoto" width="800" height="800"/>
+        <image name="book" catalog="system" width="64" height="52"/>
+        <image name="doc.plaintext" catalog="system" width="56" height="64"/>
         <image name="how-to-draw-guitar-chords-a-body-cartoon-from-coco-1084x1681 (1)" width="1084" height="1681"/>
-        <image name="ic_menu_white_3x" width="72" height="72"/>
+        <image name="info.circle" catalog="system" width="64" height="62"/>
+        <image name="link.circle" catalog="system" width="64" height="62"/>
+        <image name="music.note.list" catalog="system" width="64" height="58"/>
+        <image name="play.circle" catalog="system" width="64" height="62"/>
+        <image name="tuningfork" catalog="system" width="64" height="58"/>
     </resources>
 </document>
