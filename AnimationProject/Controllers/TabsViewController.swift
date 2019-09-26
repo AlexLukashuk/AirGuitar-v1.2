@@ -11,14 +11,26 @@ import UIKit
 class TabsViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var tabsTabBarItem: UITabBarItem!
     
+    var nameOfTab = ""
+    var descriptionOfTab = ""
     var nameOfTabs: [String] = []
     var descriptionOfTabs: [String] = []
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tabsTabBarItem.badgeValue = nil
+        
         readFromJsonFile()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Zoom", let vc = segue.destination as? ZoomViewController {
+            vc.name = nameOfTab
+            vc.text = descriptionOfTab
+        }
     }
     
     func readFromJsonFile() {
@@ -56,10 +68,11 @@ extension TabsViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let vc = storyboard?.instantiateViewController(withIdentifier: "ZoomViewController") as? ZoomViewController
-        vc?.name = nameOfTabs[indexPath.row]
-        vc?.text = descriptionOfTabs[indexPath.row]
-        self.navigationController?.pushViewController(vc!, animated: true)
+        
+        nameOfTab = nameOfTabs[indexPath.row]
+        descriptionOfTab = descriptionOfTabs[indexPath.row]
+        
+        performSegue(withIdentifier: "Zoom", sender: self)
     }
 }
 

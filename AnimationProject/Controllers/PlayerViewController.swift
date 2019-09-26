@@ -10,15 +10,17 @@ import UIKit
 import AVFoundation
 
 class PlayerViewController: UIViewController {
+
+    @IBOutlet weak var volumeSlider: UISlider!
+    @IBOutlet weak var playerTabBarItem: UITabBarItem!
     
     var player = AVAudioPlayer()
     var isPlaying = false
-
-    @IBOutlet weak var volumeSlider: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        playerTabBarItem.badgeValue = nil
     }
     
     func play(path: String) {

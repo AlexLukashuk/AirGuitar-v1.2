@@ -17,9 +17,12 @@ class LinksViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var fifthLinkTextView: UITextView!
     @IBOutlet weak var sixthLinkTextView: UITextView!
     @IBOutlet weak var seventhLinkTextView: UITextView!
+    @IBOutlet weak var linkTabBarItem: UITabBarItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        linkTabBarItem.badgeValue = nil
         
         firstLinkTextView.attributedText = attributedLink(nameOfSite: "Justin Guitar", link: "https://www.justinguitar.com")
         secondLinkTextView.attributedText = attributedLink(nameOfSite: "Jam Studio", link: "http://www.jamstudio.com/Studio/index.htm")
