@@ -23,6 +23,11 @@ class PlayerViewController: UIViewController {
         playerTabBarItem.badgeValue = nil
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+    }
+    
     func play(path: String) {
         let url = URL(fileURLWithPath: path)
         do {

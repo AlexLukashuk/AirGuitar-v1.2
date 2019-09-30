@@ -17,5 +17,9 @@ class TheoryViewController: UIViewController {
         
         theoryTabBarItem.badgeValue = nil
     }
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+    }
 }

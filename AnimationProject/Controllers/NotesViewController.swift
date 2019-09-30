@@ -8,17 +8,83 @@
 
 import UIKit
 
+var isFirstTimeMenuButtonTouched = true
+
 class NotesViewController: UIViewController {
     
     @IBOutlet weak var notesTabBarItem: UITabBarItem!
     
+    let myTintColor = #colorLiteral(red: 0.3285776377, green: 0.03574729338, blue: 0.01621466875, alpha: 1)
+    let transition = SlideInTransition()
+    
+    var topView: UIView?
+    
     var name = ""
     var imageName = ""
-
+    var menuBarButtonItem : UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.addGestureRecognizer(UISwipeGestureRecognizer(target: self, action: #selector(menuBarButtonTouched)))
+
         notesTabBarItem.badgeValue = nil
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        menuBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "ic_menu_white_3x").withRenderingMode(.alwaysOriginal).withTintColor(myTintColor), style: .plain, target: self, action: #selector(menuBarButtonTouched))
+
+        self.navigationController?.navigationBar.topItem?.setLeftBarButton(menuBarButtonItem, animated: true)
+    }
+    
+    @objc func menuBarButtonTouched() {
+        
+        if isFirstTimeMenuButtonTouched {
+            isFirstTimeMenuButtonTouched = false
+            
+            guard let menuViewController = storyboard?.instantiateViewController(withIdentifier: "MenuTableViewController") as? MenuTableViewController else { return }
+        
+            menuViewController.didTapMenuType = { menuType in
+                self.transitionToNew(menuType)
+            
+                print(menuType)
+            }
+        
+            menuViewController.modalPresentationStyle = .overCurrentContext
+            menuViewController.transitioningDelegate = self
+        
+            present(menuViewController, animated: true)
+        } else {
+            dismissMenu()
+        }
+    }
+    
+    func dismissMenu() {
+        dismiss(animated: true) {
+            isFirstTimeMenuButtonTouched = true
+        }
+    }
+    
+    func transitionToNew(_ menuType: MenuType) {
+        
+        topView?.removeFromSuperview()
+        
+        switch menuType {
+        case .feedback:
+            let feedbackViewController = FeedbackViewController()
+            
+            self.navigationController?.pushViewController(feedbackViewController, animated: false)
+        case .camera:
+            let cameraViewController = CameraViewController()
+            
+            self.navigationController?.pushViewController(cameraViewController, animated: true)
+        case .profile:
+            let profileViewController = ProfileViewController()
+            
+            self.navigationController?.pushViewController(profileViewController, animated: true)
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -61,5 +127,31 @@ class NotesViewController: UIViewController {
         imageName = "TheBeatles"
         
         performSegue(withIdentifier: "NotesIdentifier", sender: self)
+    }
+}
+
+extension NotesViewController: UIViewControllerTransitioningDelegate {
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.isPresenting = true
+        
+        return transition
+    }
+    
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.isPresenting = false
+        
+        return transition
+    }
+    
+    
+}
+
+extension UINavigationController {
+    
+    override open var shouldAutorotate: Bool {
+        get {
+            return false
+        }
     }
 }
