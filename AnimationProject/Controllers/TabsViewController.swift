@@ -26,6 +26,11 @@ class TabsViewController: UIViewController {
         readFromJsonFile()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "Zoom", let vc = segue.destination as? ZoomViewController {
             vc.name = nameOfTab

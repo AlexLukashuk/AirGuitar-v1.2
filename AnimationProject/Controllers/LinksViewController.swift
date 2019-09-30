@@ -41,6 +41,11 @@ class LinksViewController: UIViewController, UITextViewDelegate {
         seventhLinkTextView.textAlignment = .center
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+    }
+    
     func attributedLink(nameOfSite: String, link: String) -> NSMutableAttributedString {
         let attributedString = NSMutableAttributedString(string: nameOfSite)
         attributedString.addAttribute(.link, value: link, range: NSRange(location: 0, length: nameOfSite.count))

@@ -12,6 +12,11 @@
 		750786A023324A5A00FBFD89 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507869F23324A5A00FBFD89 /* InfoViewController.swift */; };
 		750786A223325C6300FBFD89 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750786A123325C6300FBFD89 /* Company.swift */; };
 		750786A4233263BF00FBFD89 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750786A3233263BF00FBFD89 /* LinksViewController.swift */; };
+		75231EF32341F94D00CA353F /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75231EF22341F94D00CA353F /* MyNavigationController.swift */; };
+		75231EF5234230E700CA353F /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75231EF4234230E700CA353F /* FeedbackViewController.swift */; };
+		75C115C5233E3130000778F4 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C4233E3130000778F4 /* SlideInTransition.swift */; };
+		75C115C7233E4BD5000778F4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C6233E4BD5000778F4 /* ProfileViewController.swift */; };
+		75C115C9233E4C57000778F4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C8233E4C57000778F4 /* CameraViewController.swift */; };
 		75C31875233CDA4E00F8B241 /* Tabs.json in Resources */ = {isa = PBXBuildFile; fileRef = 75C31874233CDA4E00F8B241 /* Tabs.json */; };
 		75C3187C233CDACE00F8B241 /* fouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C31876233CDACE00F8B241 /* fouth.mp3 */; };
 		75C3187D233CDACE00F8B241 /* fifth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C31877233CDACE00F8B241 /* fifth.mp3 */; };
@@ -28,7 +33,7 @@
 		75DF3038232A598B00D2D9A2 /* TunerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3037232A598B00D2D9A2 /* TunerViewController.swift */; };
 		75DF303B232A598B00D2D9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DF3039232A598B00D2D9A2 /* Main.storyboard */; };
 		75DF3040232A598D00D2D9A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DF303E232A598D00D2D9A2 /* LaunchScreen.storyboard */; };
-		75DF3075232A888600D2D9A2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3074232A888600D2D9A2 /* MenuViewController.swift */; };
+		75DF3075232A888600D2D9A2 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3074232A888600D2D9A2 /* MenuTableViewController.swift */; };
 		75DF3077232BADC400D2D9A2 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3076232BADC400D2D9A2 /* TabsViewController.swift */; };
 		75DF3079232BB1CC00D2D9A2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3078232BB1CC00D2D9A2 /* CollectionViewCell.swift */; };
 		75DF307D232BC1C200D2D9A2 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF307C232BC1C200D2D9A2 /* ZoomViewController.swift */; };
@@ -43,7 +48,12 @@
 		7507869F23324A5A00FBFD89 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		750786A123325C6300FBFD89 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		750786A3233263BF00FBFD89 /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
+		75231EF22341F94D00CA353F /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		75231EF4234230E700CA353F /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 		75AAD526233A5D6400407DBD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C115C4233E3130000778F4 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		75C115C6233E4BD5000778F4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		75C115C8233E4C57000778F4 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		75C31874233CDA4E00F8B241 /* Tabs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tabs.json; sourceTree = "<group>"; };
 		75C31876233CDACE00F8B241 /* fouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fouth.mp3; sourceTree = "<group>"; };
 		75C31877233CDACE00F8B241 /* fifth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fifth.mp3; sourceTree = "<group>"; };
@@ -61,7 +71,7 @@
 		75DF3037232A598B00D2D9A2 /* TunerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerViewController.swift; sourceTree = "<group>"; };
 		75DF303A232A598B00D2D9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75DF303F232A598D00D2D9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75DF3074232A888600D2D9A2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		75DF3074232A888600D2D9A2 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		75DF3076232BADC400D2D9A2 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
 		75DF3078232BB1CC00D2D9A2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		75DF307C232BC1C200D2D9A2 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
@@ -99,13 +109,18 @@
 				7507869F23324A5A00FBFD89 /* InfoViewController.swift */,
 				75078690232FC98300FBFD89 /* DetailViewController.swift */,
 				750786A3233263BF00FBFD89 /* LinksViewController.swift */,
-				75DF3074232A888600D2D9A2 /* MenuViewController.swift */,
+				75DF3074232A888600D2D9A2 /* MenuTableViewController.swift */,
 				75DF309B232FAF4300D2D9A2 /* NotesViewController.swift */,
 				750786922330F88B00FBFD89 /* PlayerViewController.swift */,
 				75DF3099232F9DEF00D2D9A2 /* TheoryViewController.swift */,
 				75DF3076232BADC400D2D9A2 /* TabsViewController.swift */,
 				75DF3037232A598B00D2D9A2 /* TunerViewController.swift */,
 				75DF307C232BC1C200D2D9A2 /* ZoomViewController.swift */,
+				75C115C4233E3130000778F4 /* SlideInTransition.swift */,
+				75231EF4234230E700CA353F /* FeedbackViewController.swift */,
+				75C115C6233E4BD5000778F4 /* ProfileViewController.swift */,
+				75C115C8233E4C57000778F4 /* CameraViewController.swift */,
+				75231EF22341F94D00CA353F /* MyNavigationController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -248,17 +263,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C115C9233E4C57000778F4 /* CameraViewController.swift in Sources */,
+				75231EF32341F94D00CA353F /* MyNavigationController.swift in Sources */,
 				75078691232FC98300FBFD89 /* DetailViewController.swift in Sources */,
 				750786A023324A5A00FBFD89 /* InfoViewController.swift in Sources */,
 				75DF3079232BB1CC00D2D9A2 /* CollectionViewCell.swift in Sources */,
 				75DF3077232BADC400D2D9A2 /* TabsViewController.swift in Sources */,
 				75DF307D232BC1C200D2D9A2 /* ZoomViewController.swift in Sources */,
+				75231EF5234230E700CA353F /* FeedbackViewController.swift in Sources */,
 				75DF3038232A598B00D2D9A2 /* TunerViewController.swift in Sources */,
 				75DF309C232FAF4300D2D9A2 /* NotesViewController.swift in Sources */,
-				75DF3075232A888600D2D9A2 /* MenuViewController.swift in Sources */,
+				75DF3075232A888600D2D9A2 /* MenuTableViewController.swift in Sources */,
 				75DF309A232F9DEF00D2D9A2 /* TheoryViewController.swift in Sources */,
 				75DF3036232A598B00D2D9A2 /* AppDelegate.swift in Sources */,
 				750786932330F88B00FBFD89 /* PlayerViewController.swift in Sources */,
+				75C115C5233E3130000778F4 /* SlideInTransition.swift in Sources */,
+				75C115C7233E4BD5000778F4 /* ProfileViewController.swift in Sources */,
 				750786A4233263BF00FBFD89 /* LinksViewController.swift in Sources */,
 				750786A223325C6300FBFD89 /* Company.swift in Sources */,
 			);
