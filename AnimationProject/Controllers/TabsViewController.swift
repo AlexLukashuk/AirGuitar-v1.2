@@ -29,6 +29,9 @@ class TabsViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
+        collectionView.backgroundColor = colorForBackground
+        view.backgroundColor = colorForBackground
+        tabBarController?.tabBar.barTintColor = colorForBackground
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

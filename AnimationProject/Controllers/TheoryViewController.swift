@@ -21,5 +21,7 @@ class TheoryViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
+        view.backgroundColor = colorForBackground
+        tabBarController?.tabBar.barTintColor = colorForBackground
     }
 }

@@ -13,6 +13,7 @@ class PlayerViewController: UIViewController {
 
     @IBOutlet weak var volumeSlider: UISlider!
     @IBOutlet weak var playerTabBarItem: UITabBarItem!
+    @IBOutlet weak var backView: UIView!
     
     var player = AVAudioPlayer()
     var isPlaying = false
@@ -26,6 +27,9 @@ class PlayerViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
+        backView.backgroundColor = colorForBackground
+        view.backgroundColor = colorForBackground
+        tabBarController?.tabBar.barTintColor = colorForBackground
     }
     
     func play(path: String) {
