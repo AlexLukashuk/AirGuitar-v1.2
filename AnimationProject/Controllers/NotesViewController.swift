@@ -13,11 +13,10 @@ var isFirstTimeMenuButtonTouched = true
 class NotesViewController: UIViewController {
     
     @IBOutlet weak var notesTabBarItem: UITabBarItem!
+    @IBOutlet weak var backView: UIView!
     
     let myTintColor = #colorLiteral(red: 0.3285776377, green: 0.03574729338, blue: 0.01621466875, alpha: 1)
     let transition = SlideInTransition()
-    
-    var topView: UIView?
     
     var name = ""
     var imageName = ""
@@ -33,6 +32,11 @@ class NotesViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
+        
+        tabBarController?.tabBar.barTintColor = colorForBackground
+        navigationController?.navigationBar.backgroundColor = colorForBackground
+        backView.backgroundColor = colorForBackground
+        view.backgroundColor = colorForBackground
         
         menuBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "ic_menu_white_3x").withRenderingMode(.alwaysOriginal).withTintColor(myTintColor), style: .plain, target: self, action: #selector(menuBarButtonTouched))
 
@@ -63,27 +67,26 @@ class NotesViewController: UIViewController {
     
     func dismissMenu() {
         dismiss(animated: true) {
+            print("Tap3")
             isFirstTimeMenuButtonTouched = true
         }
     }
     
     func transitionToNew(_ menuType: MenuType) {
         
-        topView?.removeFromSuperview()
-        
         switch menuType {
         case .feedback:
-            let feedbackViewController = FeedbackViewController()
+            guard let feedbackViewController = storyboard?.instantiateViewController(withIdentifier: "FeedbackViewController") as? FeedbackViewController else { return }
             
-            self.navigationController?.pushViewController(feedbackViewController, animated: false)
+            self.navigationController?.pushViewController(feedbackViewController, animated: true)
         case .camera:
-            let cameraViewController = CameraViewController()
+            guard let cameraViewController = storyboard?.instantiateViewController(withIdentifier: "CameraViewController") as? CameraViewController else { return }
             
             self.navigationController?.pushViewController(cameraViewController, animated: true)
-        case .profile:
-            let profileViewController = ProfileViewController()
+        case .setting:
+            guard let settingViewController = storyboard?.instantiateViewController(withIdentifier: "SettingViewController") as? SettingViewController else { return }
             
-            self.navigationController?.pushViewController(profileViewController, animated: true)
+            self.navigationController?.pushViewController(settingViewController, animated: true)
         }
     }
     
@@ -143,8 +146,6 @@ extension NotesViewController: UIViewControllerTransitioningDelegate {
         
         return transition
     }
-    
-    
 }
 
 extension UINavigationController {

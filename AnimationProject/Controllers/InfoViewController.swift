@@ -13,6 +13,7 @@ class InfoViewController: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var infoTabBarItem: UITabBarItem!
+    @IBOutlet weak var backView: UIView!
     
     let initialLocation = CLLocation(latitude: 49.228816, longitude: 28.426631)
     let regionRadius: CLLocationDistance = 2000
@@ -29,6 +30,9 @@ class InfoViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
+        backView.backgroundColor = colorForBackground
+        view.backgroundColor = colorForBackground
+        tabBarController?.tabBar.barTintColor = colorForBackground
     }
     
     func centerMapOnLocation(location: CLLocation) {

@@ -9,9 +9,9 @@
 import UIKit
 
 enum MenuType: Int {
-    case feedback
-    case profile
     case camera
+    case feedback
+    case setting
 }
 
 class MenuTableViewController: UITableViewController {
@@ -21,11 +21,15 @@ class MenuTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let swipeleft = UISwipeGestureRecognizer(target: self, action: #selector(swipeMenuLeft))
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(swipeMenuLeft))
         
-        swipeleft.direction = .left
+        swipeLeft.direction = .left
         
-        view.addGestureRecognizer(swipeleft)
+        view.addGestureRecognizer(swipeLeft)
+        
+        
+        let slide = SlideInTransition()
+        slide.myFunc()
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -41,11 +45,17 @@ class MenuTableViewController: UITableViewController {
         }
     }
     
+    func dismissMenu() {
+        dismiss(animated: true) {
+            print("Tap4")
+            isFirstTimeMenuButtonTouched = true
+        }
+    }
+    
     @objc func swipeMenuLeft() {
         
         dismiss(animated: true) {
             isFirstTimeMenuButtonTouched = true
         }
-        
     }
 }

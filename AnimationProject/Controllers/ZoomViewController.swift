@@ -24,5 +24,11 @@ class ZoomViewController: UIViewController {
         textView.text = text
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        view.backgroundColor = colorForBackground
+    }
+    
 }
 

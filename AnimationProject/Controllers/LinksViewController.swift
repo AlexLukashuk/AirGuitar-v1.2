@@ -10,6 +10,7 @@ import UIKit
 
 class LinksViewController: UIViewController, UITextViewDelegate {
 
+    @IBOutlet weak var backView: UIView!
     @IBOutlet weak var firstLinkTextView: UITextView!
     @IBOutlet weak var secondLinkTextView: UITextView!
     @IBOutlet weak var thirdLinkTextView: UITextView!
@@ -44,6 +45,9 @@ class LinksViewController: UIViewController, UITextViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
+        backView.backgroundColor = colorForBackground
+        view.backgroundColor = colorForBackground
+        tabBarController?.tabBar.barTintColor = colorForBackground
     }
     
     func attributedLink(nameOfSite: String, link: String) -> NSMutableAttributedString {
