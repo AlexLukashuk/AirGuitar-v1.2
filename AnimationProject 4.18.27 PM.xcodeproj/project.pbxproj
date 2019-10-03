@@ -12,8 +12,12 @@
 		750786A023324A5A00FBFD89 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507869F23324A5A00FBFD89 /* InfoViewController.swift */; };
 		750786A223325C6300FBFD89 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750786A123325C6300FBFD89 /* Company.swift */; };
 		750786A4233263BF00FBFD89 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750786A3233263BF00FBFD89 /* LinksViewController.swift */; };
+		75197B4D234628E100C8FBE4 /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75197B4C234628E100C8FBE4 /* Guide.storyboard */; };
 		75231EF32341F94D00CA353F /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75231EF22341F94D00CA353F /* MyNavigationController.swift */; };
 		7526711A23460B4F00E454EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7526711923460B4F00E454EF /* Main.storyboard */; };
+		7526711C23460E6800E454EF /* Tabs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7526711B23460E6800E454EF /* Tabs.storyboard */; };
+		7526711E2346186600E454EF /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7526711D2346186600E454EF /* Info.storyboard */; };
+		75267120234623F300E454EF /* Tuner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7526711F234623F300E454EF /* Tuner.storyboard */; };
 		75377CAB2343997100AA3079 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75377CAA2343997100AA3079 /* MyTabBarController.swift */; };
 		75377CAD23448F4A00AA3079 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75377CAC23448F4A00AA3079 /* Config.swift */; };
 		75C115C5233E3130000778F4 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C4233E3130000778F4 /* SlideInTransition.swift */; };
@@ -41,6 +45,9 @@
 		75DF3081232BCD4C00D2D9A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DF3080232BCD4C00D2D9A2 /* Assets.xcassets */; };
 		75DF309A232F9DEF00D2D9A2 /* TheoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3099232F9DEF00D2D9A2 /* TheoryViewController.swift */; };
 		75DF309C232FAF4300D2D9A2 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF309B232FAF4300D2D9A2 /* NotesViewController.swift */; };
+		75E0963023462B3800FA71C1 /* Links.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E0962F23462B3800FA71C1 /* Links.storyboard */; };
+		75E0963223462BF500FA71C1 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E0963123462BF500FA71C1 /* Player.storyboard */; };
+		75E0963423462D8300FA71C1 /* Notes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E0963323462D8300FA71C1 /* Notes.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,8 +56,12 @@
 		7507869F23324A5A00FBFD89 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		750786A123325C6300FBFD89 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		750786A3233263BF00FBFD89 /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
+		75197B4C234628E100C8FBE4 /* Guide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Guide.storyboard; sourceTree = "<group>"; };
 		75231EF22341F94D00CA353F /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
 		7526711923460B4F00E454EF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7526711B23460E6800E454EF /* Tabs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabs.storyboard; sourceTree = "<group>"; };
+		7526711D2346186600E454EF /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
+		7526711F234623F300E454EF /* Tuner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tuner.storyboard; sourceTree = "<group>"; };
 		75377CAA2343997100AA3079 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		75377CAC23448F4A00AA3079 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		75AAD526233A5D6400407DBD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +91,9 @@
 		75DF3080232BCD4C00D2D9A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DF3099232F9DEF00D2D9A2 /* TheoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryViewController.swift; sourceTree = "<group>"; };
 		75DF309B232FAF4300D2D9A2 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		75E0962F23462B3800FA71C1 /* Links.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Links.storyboard; sourceTree = "<group>"; };
+		75E0963123462BF500FA71C1 /* Player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		75E0963323462D8300FA71C1 /* Notes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notes.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +178,13 @@
 				75AAD526233A5D6400407DBD /* Info.plist */,
 				75DF303E232A598D00D2D9A2 /* LaunchScreen.storyboard */,
 				7526711923460B4F00E454EF /* Main.storyboard */,
+				7526711B23460E6800E454EF /* Tabs.storyboard */,
+				7526711D2346186600E454EF /* Info.storyboard */,
+				7526711F234623F300E454EF /* Tuner.storyboard */,
+				75197B4C234628E100C8FBE4 /* Guide.storyboard */,
+				75E0962F23462B3800FA71C1 /* Links.storyboard */,
+				75E0963123462BF500FA71C1 /* Player.storyboard */,
+				75E0963323462D8300FA71C1 /* Notes.storyboard */,
 				750786942330FA0100FBFD89 /* Songs */,
 				75DF3082232BCD7800D2D9A2 /* Sounds of strings */,
 			);
@@ -241,20 +262,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E0963023462B3800FA71C1 /* Links.storyboard in Resources */,
+				7526711C23460E6800E454EF /* Tabs.storyboard in Resources */,
 				75C3188A233CDAFA00F8B241 /* TheRollingStones.mp3 in Resources */,
 				75C3187E233CDACE00F8B241 /* sixth.mp3 in Resources */,
 				75C3187F233CDACE00F8B241 /* third.mp3 in Resources */,
 				75C31889233CDAFA00F8B241 /* acdc.mp3 in Resources */,
 				75DF3040232A598D00D2D9A2 /* LaunchScreen.storyboard in Resources */,
+				75197B4D234628E100C8FBE4 /* Guide.storyboard in Resources */,
+				75E0963223462BF500FA71C1 /* Player.storyboard in Resources */,
 				75C3188B233CDAFB00F8B241 /* TheBeatles.mp3 in Resources */,
 				75C31875233CDA4E00F8B241 /* Tabs.json in Resources */,
 				75C31887233CDAFA00F8B241 /* Nirvana.mp3 in Resources */,
+				7526711E2346186600E454EF /* Info.storyboard in Resources */,
 				75C31881233CDACE00F8B241 /* second.mp3 in Resources */,
 				75DF3081232BCD4C00D2D9A2 /* Assets.xcassets in Resources */,
 				75C31888233CDAFA00F8B241 /* Metallica.mp3 in Resources */,
+				75267120234623F300E454EF /* Tuner.storyboard in Resources */,
 				7526711A23460B4F00E454EF /* Main.storyboard in Resources */,
 				75C3187C233CDACE00F8B241 /* fouth.mp3 in Resources */,
 				75C3187D233CDACE00F8B241 /* fifth.mp3 in Resources */,
+				75E0963423462D8300FA71C1 /* Notes.storyboard in Resources */,
 				75C31880233CDACE00F8B241 /* first.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

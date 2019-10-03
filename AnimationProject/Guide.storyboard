@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hea-mj-OFg">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Guide-->
+        <scene sceneID="XJg-D9-fgZ">
+            <objects>
+                <viewController id="hea-mj-OFg" customClass="TheoryViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="50R-YQ-8oV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JRO-XE-KLm">
+                                <rect key="frame" x="15" y="116" width="384" height="746"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="The Beginner’s Guide to Learning the Guitar in 60 Days">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+  Whether you’re young or old, there’s no better feeling than learning to play an instrument. While many attempt to learn the guitar, it is unfortunately very common for beginners to give up after only a couple of months. Guitar lessons with an instructor can be expensive and it can be frustrating if you’re not seeing progress immediately. That’s where ChordBuddy steps in, offering one of the easiest and quickest ways to learn to play the guitar in 60 days or less. Simple, effective, and affordable, this guitar learning device has shown great success among beginner guitar players of every age. Use this handy guide to learn everything you need to know as a beginner guitarist. You’ll be playing your favorite song in no time at all!
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Common Guitar Myths and Misconceptions">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CgogA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">There are many misconceptions about learning how to play the guitar, many of which have hindered individuals from picking up an instrument they’ve always dreamed about playing.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">After years in the industry, we’ve heard plenty of reasons that people put off learning to play the guitar. Here are some of the most common guitar myths and misconceptions:
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="- ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">“I’m too old to learn an instrument!”
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="- ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">“I don’t have the time to learn to play the guitar.”
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="- ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">“Physical limitations will get in the way of my ability to play the guitar.”
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="- ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="“I can’t play the guitar left handed.”">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="The Truth About Learning The Guitar with ChordBuddy">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CgogIA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Age can’t hinder you – Working off of muscle memory and visual assistance, ChordBuddy is designed for players of every age. In fact, ChordBuddy is well-suited for those looking to play guitar with arthritis, offering a pain-free method of playing your favorite song. Utilizing ChordBuddy also allows you to learn the guitar on your own, eliminating the need for long guitar lessons with an instructor, which can result in prolonged joint pain.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CgogICA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Learn to play on your time – While signing up for weekly guitar lessons may not be feasible, ChordBuddy allows you to learn how to play guitar chords on your time in the comfort of your home or school. That means you can play first thing in the morning, during lunchtime, or even in the middle of the night. Whatever works for you!
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Anybody, of every ability, can play – Designed for every type of learner, ChordBuddy includes modifications that allow individuals of every ability to successfully learn a new instrument. Perfect for use in the music therapy, home, or school setting, ChordBuddy can help individuals learn to play the guitar flat or with two people at a time, making for what is an all-around therapeutic experience.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="   ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Righty, Lefty, Doesn’t Matter – ChordBuddy offers a great way to learn how to play guitar for left handed beginners. This guitar learning device is available in both right-handed or left-handed options, making for a device tailored to your needs.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Buying A Guitar For Beginners">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CgogIA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">First things, first. Before you begin your journey of learning the guitar, you’ll need the instrument! While much of your decision will be based on personal preference, there are some key factors to consider when buying a guitar as a beginner guitarist:
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="- ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Price
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="- ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Style
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="- ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Player Age/Size
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="- ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Guitar Condition
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="- ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Where You’re Purchasing">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Where to Purchase">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CgogICA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">As a beginner, it is best to avoid making a pawn shop, flea market, or yard sale purchase unless you are shopping with somebody who has experience in purchasing a guitar. Having never purchased a guitar, you may not know what to look for in terms of damage or guitar quality. With that being said, a local music retail shop is your best bet. You may also shop online with a reputable company, although be sure to review the business’ return policy.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Price of Guitar">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CgogICA
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">While some suggest that a great guitar can cost you between $300 and $500, there are plenty of quality guitars available within the $100 to $200 range. Additionally, there are many “package” options that include not only the guitar, but also essential accessories, such as a tuner and gig bag</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Electric vs Acoustic vs Classical Guitar">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30145" green="0.01093" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Though this decision can be based on preference, we think the best guitar for a beginner is the acoustic guitar. Classical guitars have a wider neck, which can be hard for younger students or physically smaller individuals to handle when learning guitar chords. Meanwhile, the electric guitar is designed to be played with an amplifier, which comes at an additional cost. Acoustic guitars are simple and require little to no additional equipment, making them ideal for beginner guitarists.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30145" green="0.01093" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Condition of Guitar">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+There are numerous things to look for when purchasing a guitar. If purchasing a brand new guitar, these issues likely won’t be a concern, but they are worth checking for. Here are some steps to follow as you check the condition of a guitar:
+
+1.) Slowly run your hand up and down the length of the guitar’s neck, as pictured below. It should be smooth, with no sharp edges or splinters.
+2.) Turn the guitar over and check its heel, as indicated in the photo below. There should be no cracks or gaps between the guitar’s heel and neck.
+3.) On the front of the guitar, check the bridge, as pictured below. Run a thin pick between the bridge and the body of the guitar to ensure there are no gaps.
+4.) Check the guitar’s string height by pressing down on the first, second, and third fret. You should be able to do so with minimal effort. Come to the 12th fret and press down. The distance from the top of the fret to the bottom of the string should be no more than three times. If it is five times, the guitar may have a warped neck or too high of a bridge.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="How to Play Guitar Chords">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="AmericanTypewriter-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+In order to play your favorite song, you’ll need to learn guitar chords. Use the images and instructions below to learn how to play each chord. The ChordBuddy device can be used for assistance in knowing where to place your fingers In the images the circles represent where you will be placing your fingers (I=index, M=middle finger, R=ring finger, P=pinky). The X’s represent strings that you will not be strumming while the O represents strings that will be played without any frets.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="AmericanTypewriter"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3K-u0-etc">
+                                <rect key="frame" x="10" y="54" width="394" height="52"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="45"/>
+                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69353141190000001" green="0.1987422184" blue="0.24446274270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="h3K-u0-etc" firstAttribute="top" secondItem="ATX-Qk-45g" secondAttribute="top" constant="10" id="TAg-a7-KAF"/>
+                            <constraint firstItem="ATX-Qk-45g" firstAttribute="trailing" secondItem="JRO-XE-KLm" secondAttribute="trailing" constant="15" id="WhG-of-Pnc"/>
+                            <constraint firstItem="h3K-u0-etc" firstAttribute="leading" secondItem="ATX-Qk-45g" secondAttribute="leading" constant="10" id="nmx-ni-Yzr"/>
+                            <constraint firstItem="JRO-XE-KLm" firstAttribute="bottom" secondItem="ATX-Qk-45g" secondAttribute="bottom" id="pzs-GQ-aaZ"/>
+                            <constraint firstItem="JRO-XE-KLm" firstAttribute="top" secondItem="h3K-u0-etc" secondAttribute="bottom" constant="10" id="tDX-hj-c2E"/>
+                            <constraint firstItem="ATX-Qk-45g" firstAttribute="trailing" secondItem="h3K-u0-etc" secondAttribute="trailing" constant="10" id="uLO-jE-Wgm"/>
+                            <constraint firstItem="JRO-XE-KLm" firstAttribute="leading" secondItem="ATX-Qk-45g" secondAttribute="leading" constant="15" id="ySr-M4-lZc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ATX-Qk-45g"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Guide" image="book" catalog="system" id="A5H-9R-3aO">
+                        <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Guide" id="eUC-MI-Og3"/>
+                    <connections>
+                        <outlet property="theoryTabBarItem" destination="A5H-9R-3aO" id="b7r-wC-ma7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vRC-ty-uXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1460" y="-1326"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="book" catalog="system" width="64" height="52"/>
+    </resources>
+</document>
