@@ -7,15 +7,13 @@
 //
 
 import UIKit
-
-var isFirstTimeMenuButtonTouched = true
+import SafariServices
 
 class NotesViewController: UIViewController {
     
     @IBOutlet weak var notesTabBarItem: UITabBarItem!
     @IBOutlet weak var backView: UIView!
     
-    let myTintColor = #colorLiteral(red: 0.3285776377, green: 0.03574729338, blue: 0.01621466875, alpha: 1)
     let transition = SlideInTransition()
     
     var name = ""
@@ -33,20 +31,20 @@ class NotesViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
-        tabBarController?.tabBar.barTintColor = colorForBackground
-        navigationController?.navigationBar.backgroundColor = colorForBackground
-        backView.backgroundColor = colorForBackground
-        view.backgroundColor = colorForBackground
+        tabBarController?.tabBar.barTintColor = Config.shared.colorForBackground
+        navigationController?.navigationBar.backgroundColor = Config.shared.colorForBackground
+        backView.backgroundColor = Config.shared.colorForBackground
+        view.backgroundColor = Config.shared.colorForBackground
         
-        menuBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "ic_menu_white_3x").withRenderingMode(.alwaysOriginal).withTintColor(myTintColor), style: .plain, target: self, action: #selector(menuBarButtonTouched))
+        menuBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "ic_menu_white_3x").withRenderingMode(.alwaysOriginal).withTintColor(Config.shared.myTintColor!), style: .plain, target: self, action: #selector(menuBarButtonTouched))
 
         self.navigationController?.navigationBar.topItem?.setLeftBarButton(menuBarButtonItem, animated: true)
     }
     
     @objc func menuBarButtonTouched() {
         
-        if isFirstTimeMenuButtonTouched {
-            isFirstTimeMenuButtonTouched = false
+        if Config.shared.isFirstTimeMenuButtonTouched! {
+            Config.shared.isFirstTimeMenuButtonTouched = false
             
             guard let menuViewController = storyboard?.instantiateViewController(withIdentifier: "MenuTableViewController") as? MenuTableViewController else { return }
         
@@ -68,7 +66,7 @@ class NotesViewController: UIViewController {
     func dismissMenu() {
         dismiss(animated: true) {
             print("Tap3")
-            isFirstTimeMenuButtonTouched = true
+            Config.shared.isFirstTimeMenuButtonTouched = true
         }
     }
     
@@ -76,9 +74,7 @@ class NotesViewController: UIViewController {
         
         switch menuType {
         case .feedback:
-            guard let feedbackViewController = storyboard?.instantiateViewController(withIdentifier: "FeedbackViewController") as? FeedbackViewController else { return }
-            
-            self.navigationController?.pushViewController(feedbackViewController, animated: true)
+            feedbackWebPage()
         case .camera:
             guard let cameraViewController = storyboard?.instantiateViewController(withIdentifier: "CameraViewController") as? CameraViewController else { return }
             
@@ -87,6 +83,16 @@ class NotesViewController: UIViewController {
             guard let settingViewController = storyboard?.instantiateViewController(withIdentifier: "SettingViewController") as? SettingViewController else { return }
             
             self.navigationController?.pushViewController(settingViewController, animated: true)
+        }
+    }
+    
+    func feedbackWebPage() {
+        if let url = URL(string: "https://feedback.ink/yourweb/") {
+            let config = SFSafariViewController.Configuration()
+            config.entersReaderIfAvailable = true
+
+            let vc = SFSafariViewController(url: url, configuration: config)
+            present(vc, animated: true)
         }
     }
     

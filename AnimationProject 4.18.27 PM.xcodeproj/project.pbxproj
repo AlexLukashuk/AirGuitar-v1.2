@@ -13,8 +13,9 @@
 		750786A223325C6300FBFD89 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750786A123325C6300FBFD89 /* Company.swift */; };
 		750786A4233263BF00FBFD89 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750786A3233263BF00FBFD89 /* LinksViewController.swift */; };
 		75231EF32341F94D00CA353F /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75231EF22341F94D00CA353F /* MyNavigationController.swift */; };
-		75231EF5234230E700CA353F /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75231EF4234230E700CA353F /* FeedbackViewController.swift */; };
+		7526711A23460B4F00E454EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7526711923460B4F00E454EF /* Main.storyboard */; };
 		75377CAB2343997100AA3079 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75377CAA2343997100AA3079 /* MyTabBarController.swift */; };
+		75377CAD23448F4A00AA3079 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75377CAC23448F4A00AA3079 /* Config.swift */; };
 		75C115C5233E3130000778F4 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C4233E3130000778F4 /* SlideInTransition.swift */; };
 		75C115C7233E4BD5000778F4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C6233E4BD5000778F4 /* SettingViewController.swift */; };
 		75C115C9233E4C57000778F4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C8233E4C57000778F4 /* CameraViewController.swift */; };
@@ -32,7 +33,6 @@
 		75C3188B233CDAFB00F8B241 /* TheBeatles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C31886233CDAFA00F8B241 /* TheBeatles.mp3 */; };
 		75DF3036232A598B00D2D9A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3035232A598B00D2D9A2 /* AppDelegate.swift */; };
 		75DF3038232A598B00D2D9A2 /* TunerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3037232A598B00D2D9A2 /* TunerViewController.swift */; };
-		75DF303B232A598B00D2D9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DF3039232A598B00D2D9A2 /* Main.storyboard */; };
 		75DF3040232A598D00D2D9A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DF303E232A598D00D2D9A2 /* LaunchScreen.storyboard */; };
 		75DF3075232A888600D2D9A2 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3074232A888600D2D9A2 /* MenuTableViewController.swift */; };
 		75DF3077232BADC400D2D9A2 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3076232BADC400D2D9A2 /* TabsViewController.swift */; };
@@ -50,8 +50,9 @@
 		750786A123325C6300FBFD89 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		750786A3233263BF00FBFD89 /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
 		75231EF22341F94D00CA353F /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
-		75231EF4234230E700CA353F /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		7526711923460B4F00E454EF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		75377CAA2343997100AA3079 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		75377CAC23448F4A00AA3079 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		75AAD526233A5D6400407DBD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75C115C4233E3130000778F4 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		75C115C6233E4BD5000778F4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		75DF3032232A598B00D2D9A2 /* AnimationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DF3035232A598B00D2D9A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75DF3037232A598B00D2D9A2 /* TunerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerViewController.swift; sourceTree = "<group>"; };
-		75DF303A232A598B00D2D9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75DF303F232A598D00D2D9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75DF3074232A888600D2D9A2 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		75DF3076232BADC400D2D9A2 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
@@ -118,8 +118,6 @@
 				75DF3076232BADC400D2D9A2 /* TabsViewController.swift */,
 				75DF3037232A598B00D2D9A2 /* TunerViewController.swift */,
 				75DF307C232BC1C200D2D9A2 /* ZoomViewController.swift */,
-				75C115C4233E3130000778F4 /* SlideInTransition.swift */,
-				75231EF4234230E700CA353F /* FeedbackViewController.swift */,
 				75C115C6233E4BD5000778F4 /* SettingViewController.swift */,
 				75C115C8233E4C57000778F4 /* CameraViewController.swift */,
 				75231EF22341F94D00CA353F /* MyNavigationController.swift */,
@@ -133,6 +131,8 @@
 			children = (
 				75DF3078232BB1CC00D2D9A2 /* CollectionViewCell.swift */,
 				750786A123325C6300FBFD89 /* Company.swift */,
+				75C115C4233E3130000778F4 /* SlideInTransition.swift */,
+				75377CAC23448F4A00AA3079 /* Config.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 				75DF3080232BCD4C00D2D9A2 /* Assets.xcassets */,
 				75AAD526233A5D6400407DBD /* Info.plist */,
 				75DF303E232A598D00D2D9A2 /* LaunchScreen.storyboard */,
-				75DF3039232A598B00D2D9A2 /* Main.storyboard */,
+				7526711923460B4F00E454EF /* Main.storyboard */,
 				750786942330FA0100FBFD89 /* Songs */,
 				75DF3082232BCD7800D2D9A2 /* Sounds of strings */,
 			);
@@ -252,7 +252,7 @@
 				75C31881233CDACE00F8B241 /* second.mp3 in Resources */,
 				75DF3081232BCD4C00D2D9A2 /* Assets.xcassets in Resources */,
 				75C31888233CDAFA00F8B241 /* Metallica.mp3 in Resources */,
-				75DF303B232A598B00D2D9A2 /* Main.storyboard in Resources */,
+				7526711A23460B4F00E454EF /* Main.storyboard in Resources */,
 				75C3187C233CDACE00F8B241 /* fouth.mp3 in Resources */,
 				75C3187D233CDACE00F8B241 /* fifth.mp3 in Resources */,
 				75C31880233CDACE00F8B241 /* first.mp3 in Resources */,
@@ -274,7 +274,6 @@
 				75DF3079232BB1CC00D2D9A2 /* CollectionViewCell.swift in Sources */,
 				75DF3077232BADC400D2D9A2 /* TabsViewController.swift in Sources */,
 				75DF307D232BC1C200D2D9A2 /* ZoomViewController.swift in Sources */,
-				75231EF5234230E700CA353F /* FeedbackViewController.swift in Sources */,
 				75DF3038232A598B00D2D9A2 /* TunerViewController.swift in Sources */,
 				75DF309C232FAF4300D2D9A2 /* NotesViewController.swift in Sources */,
 				75DF3075232A888600D2D9A2 /* MenuTableViewController.swift in Sources */,
@@ -283,6 +282,7 @@
 				750786932330F88B00FBFD89 /* PlayerViewController.swift in Sources */,
 				75C115C5233E3130000778F4 /* SlideInTransition.swift in Sources */,
 				75C115C7233E4BD5000778F4 /* SettingViewController.swift in Sources */,
+				75377CAD23448F4A00AA3079 /* Config.swift in Sources */,
 				750786A4233263BF00FBFD89 /* LinksViewController.swift in Sources */,
 				750786A223325C6300FBFD89 /* Company.swift in Sources */,
 			);
@@ -291,14 +291,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		75DF3039232A598B00D2D9A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75DF303A232A598B00D2D9A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		75DF303E232A598D00D2D9A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

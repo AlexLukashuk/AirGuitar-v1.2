@@ -37,8 +37,8 @@ class TunerViewController: UIViewController {
         fifthString.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTapAnimationsFifth)))
         sixthString.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTapAnimationsSixth)))
         
-        view.backgroundColor = colorForBackground
-        tabBarController?.tabBar.barTintColor = colorForBackground
+        view.backgroundColor = Config.shared.colorForBackground
+        tabBarController?.tabBar.barTintColor = Config.shared.colorForBackground
     }
     
     @objc fileprivate func handleTapAnimationsFirst(numberOfString: Int) {

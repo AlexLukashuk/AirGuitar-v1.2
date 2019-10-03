@@ -13,7 +13,6 @@ class SlideInTransition: NSObject, UIViewControllerAnimatedTransitioning {
     var isPresenting = false
     let dimmingView = UIView()
     
-    
     func myFunc() {
         dimmingView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapDimmingView)))
     }
@@ -27,7 +26,7 @@ class SlideInTransition: NSObject, UIViewControllerAnimatedTransitioning {
         guard let toViewController = transitionContext.viewController(forKey: .to),
             let fromViewController = transitionContext.viewController(forKey: .from) else { return }
         
-//        dimmingView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapDimmingView)))
+        dimmingView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapDimmingView)))
         
         let containerView = transitionContext.containerView
         
@@ -71,6 +70,5 @@ class SlideInTransition: NSObject, UIViewControllerAnimatedTransitioning {
     
     @objc func tapDimmingView() {
         
-        print("Tap2")
     }
 }

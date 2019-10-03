@@ -26,10 +26,6 @@ class MenuTableViewController: UITableViewController {
         swipeLeft.direction = .left
         
         view.addGestureRecognizer(swipeLeft)
-        
-        
-        let slide = SlideInTransition()
-        slide.myFunc()
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -39,7 +35,7 @@ class MenuTableViewController: UITableViewController {
         dismiss(animated: true) { [weak self] in
             print("Dismissing: \(menuType)")
             
-            isFirstTimeMenuButtonTouched = true
+            Config.shared.isFirstTimeMenuButtonTouched = true
             
             self?.didTapMenuType?(menuType)
         }
@@ -47,15 +43,14 @@ class MenuTableViewController: UITableViewController {
     
     func dismissMenu() {
         dismiss(animated: true) {
-            print("Tap4")
-            isFirstTimeMenuButtonTouched = true
+            Config.shared.isFirstTimeMenuButtonTouched = true
         }
     }
     
     @objc func swipeMenuLeft() {
         
         dismiss(animated: true) {
-            isFirstTimeMenuButtonTouched = true
+            Config.shared.isFirstTimeMenuButtonTouched = true
         }
     }
 }
