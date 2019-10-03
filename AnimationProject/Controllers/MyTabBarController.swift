@@ -16,6 +16,6 @@ class MyTabBarController: UITabBarController, UITabBarControllerDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
-        self.myTabBar.barTintColor = colorForBackground
+        self.myTabBar.barTintColor = Config.shared.colorForBackground
     }
 }

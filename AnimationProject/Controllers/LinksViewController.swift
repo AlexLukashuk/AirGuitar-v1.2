@@ -45,9 +45,9 @@ class LinksViewController: UIViewController, UITextViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
-        backView.backgroundColor = colorForBackground
-        view.backgroundColor = colorForBackground
-        tabBarController?.tabBar.barTintColor = colorForBackground
+        backView.backgroundColor = Config.shared.colorForBackground
+        view.backgroundColor = Config.shared.colorForBackground
+        tabBarController?.tabBar.barTintColor = Config.shared.colorForBackground
     }
     
     func attributedLink(nameOfSite: String, link: String) -> NSMutableAttributedString {

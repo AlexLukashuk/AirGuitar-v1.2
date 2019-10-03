@@ -45,8 +45,8 @@ class DetailViewController: UIViewController, UIGestureRecognizerDelegate, UIScr
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
-        view.backgroundColor = colorForBackground
-        tabBarController?.tabBar.barTintColor = colorForBackground
+        view.backgroundColor = Config.shared.colorForBackground
+        tabBarController?.tabBar.barTintColor = Config.shared.colorForBackground
     }
     
     @objc func tapGesture(sender: UITapGestureRecognizer) {

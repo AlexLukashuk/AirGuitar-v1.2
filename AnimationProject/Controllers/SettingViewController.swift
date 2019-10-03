@@ -9,9 +9,6 @@
 import Foundation
 import UIKit
 
-var colorForBackground = #colorLiteral(red: 0.7071254849, green: 0.2154596448, blue: 0.2453398108, alpha: 1)
-var isOn = true
-
 class SettingViewController: UIViewController {
     
     @IBOutlet weak var switchTheme: UISwitch!
@@ -19,13 +16,13 @@ class SettingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = colorForBackground
+        view.backgroundColor = Config.shared.colorForBackground
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
-        if isOn {
+        if Config.shared.isOnSwitch! {
             switchTheme.setOn(true, animated: true)
         } else {
             switchTheme.setOn(false, animated: true)
@@ -34,14 +31,15 @@ class SettingViewController: UIViewController {
     
     @IBAction func switchAction(_ sender: UISwitch) {
         if switchTheme.isOn {
-            isOn = true
-            colorForBackground = #colorLiteral(red: 0.7071254849, green: 0.2154596448, blue: 0.2453398108, alpha: 1)
+            Config.shared.isOnSwitch = true
+            Config.shared.colorForBackground = #colorLiteral(red: 0.7071254849, green: 0.2154596448, blue: 0.2453398108, alpha: 1)
         } else {
-            isOn = false
-            colorForBackground = #colorLiteral(red: 1, green: 0.7052828004, blue: 0.6321345922, alpha: 1)
+            Config.shared.isOnSwitch = false
+            Config.shared.colorForBackground = #colorLiteral(red: 1, green: 0.7052828004, blue: 0.6321345922, alpha: 1)
         }
-        tabBarController?.tabBar.barTintColor = colorForBackground
-        navigationController?.navigationBar.barTintColor = colorForBackground
-        view.backgroundColor = colorForBackground
+        
+        tabBarController?.tabBar.barTintColor = Config.shared.colorForBackground
+        navigationController?.navigationBar.barTintColor = Config.shared.colorForBackground
+        view.backgroundColor = Config.shared.colorForBackground
     }
 }
