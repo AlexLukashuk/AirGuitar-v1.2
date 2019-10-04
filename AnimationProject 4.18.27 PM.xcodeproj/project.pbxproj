@@ -20,6 +20,12 @@
 		75267120234623F300E454EF /* Tuner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7526711F234623F300E454EF /* Tuner.storyboard */; };
 		75377CAB2343997100AA3079 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75377CAA2343997100AA3079 /* MyTabBarController.swift */; };
 		75377CAD23448F4A00AA3079 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75377CAC23448F4A00AA3079 /* Config.swift */; };
+		75489B3523463D1B00798DC3 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75489B3423463D1B00798DC3 /* ContainerController.swift */; };
+		75489B3723463D3B00798DC3 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75489B3623463D3B00798DC3 /* MenuController.swift */; };
+		75489B3923463D5000798DC3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75489B3823463D5000798DC3 /* HomeController.swift */; };
+		75489B3F2346418F00798DC3 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75489B3E2346418F00798DC3 /* MenuOption.swift */; };
+		75489B41234641BC00798DC3 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75489B40234641BC00798DC3 /* MenuOptionCell.swift */; };
+		75489B442346420200798DC3 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75489B432346420200798DC3 /* Protocols.swift */; };
 		75C115C5233E3130000778F4 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C4233E3130000778F4 /* SlideInTransition.swift */; };
 		75C115C7233E4BD5000778F4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C6233E4BD5000778F4 /* SettingViewController.swift */; };
 		75C115C9233E4C57000778F4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C115C8233E4C57000778F4 /* CameraViewController.swift */; };
@@ -64,6 +70,12 @@
 		7526711F234623F300E454EF /* Tuner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tuner.storyboard; sourceTree = "<group>"; };
 		75377CAA2343997100AA3079 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		75377CAC23448F4A00AA3079 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		75489B3423463D1B00798DC3 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		75489B3623463D3B00798DC3 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		75489B3823463D5000798DC3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		75489B3E2346418F00798DC3 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		75489B40234641BC00798DC3 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		75489B432346420200798DC3 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		75AAD526233A5D6400407DBD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75C115C4233E3130000778F4 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		75C115C6233E4BD5000778F4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -119,9 +131,55 @@
 			path = Songs;
 			sourceTree = "<group>";
 		};
+		75489B3323463CB300798DC3 /* Slide Menu */ = {
+			isa = PBXGroup;
+			children = (
+				75489B42234641EA00798DC3 /* New Utils */,
+				75489B3B23463EAB00798DC3 /* Model */,
+				75489B3C23463EB600798DC3 /* View */,
+				75489B3D23463EC100798DC3 /* Controller */,
+			);
+			path = "Slide Menu";
+			sourceTree = "<group>";
+		};
+		75489B3B23463EAB00798DC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75489B3E2346418F00798DC3 /* MenuOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75489B3C23463EB600798DC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75489B40234641BC00798DC3 /* MenuOptionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75489B3D23463EC100798DC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75489B3423463D1B00798DC3 /* ContainerController.swift */,
+				75489B3823463D5000798DC3 /* HomeController.swift */,
+				75489B3623463D3B00798DC3 /* MenuController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75489B42234641EA00798DC3 /* New Utils */ = {
+			isa = PBXGroup;
+			children = (
+				75489B432346420200798DC3 /* Protocols.swift */,
+			);
+			path = "New Utils";
+			sourceTree = "<group>";
+		};
 		75A5B8CA233BBA5F00BB68E3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				75489B3323463CB300798DC3 /* Slide Menu */,
 				7507869F23324A5A00FBFD89 /* InfoViewController.swift */,
 				75078690232FC98300FBFD89 /* DetailViewController.swift */,
 				750786A3233263BF00FBFD89 /* LinksViewController.swift */,
@@ -295,7 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75C115C9233E4C57000778F4 /* CameraViewController.swift in Sources */,
+				75489B3723463D3B00798DC3 /* MenuController.swift in Sources */,
 				75377CAB2343997100AA3079 /* MyTabBarController.swift in Sources */,
+				75489B3523463D1B00798DC3 /* ContainerController.swift in Sources */,
+				75489B3F2346418F00798DC3 /* MenuOption.swift in Sources */,
+				75489B442346420200798DC3 /* Protocols.swift in Sources */,
 				75231EF32341F94D00CA353F /* MyNavigationController.swift in Sources */,
 				75078691232FC98300FBFD89 /* DetailViewController.swift in Sources */,
 				750786A023324A5A00FBFD89 /* InfoViewController.swift in Sources */,
@@ -304,9 +366,11 @@
 				75DF307D232BC1C200D2D9A2 /* ZoomViewController.swift in Sources */,
 				75DF3038232A598B00D2D9A2 /* TunerViewController.swift in Sources */,
 				75DF309C232FAF4300D2D9A2 /* NotesViewController.swift in Sources */,
+				75489B41234641BC00798DC3 /* MenuOptionCell.swift in Sources */,
 				75DF3075232A888600D2D9A2 /* MenuTableViewController.swift in Sources */,
 				75DF309A232F9DEF00D2D9A2 /* TheoryViewController.swift in Sources */,
 				75DF3036232A598B00D2D9A2 /* AppDelegate.swift in Sources */,
+				75489B3923463D5000798DC3 /* HomeController.swift in Sources */,
 				750786932330F88B00FBFD89 /* PlayerViewController.swift in Sources */,
 				75C115C5233E3130000778F4 /* SlideInTransition.swift in Sources */,
 				75C115C7233E4BD5000778F4 /* SettingViewController.swift in Sources */,
@@ -381,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -436,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

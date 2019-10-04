@@ -36,8 +36,10 @@ class NotesViewController: UIViewController {
         backView.backgroundColor = Config.shared.colorForBackground
         view.backgroundColor = Config.shared.colorForBackground
         
-        menuBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "ic_menu_white_3x").withRenderingMode(.alwaysOriginal).withTintColor(Config.shared.myTintColor!), style: .plain, target: self, action: #selector(menuBarButtonTouched))
+//        menuBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "ic_menu_white_3x").withRenderingMode(.alwaysOriginal).withTintColor(Config.shared.myTintColor!), style: .plain, target: self, action: #selector(menuBarButtonTouched))
 
+        menuBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "ic_menu_white_3x").withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(menuBarButtonTouched))
+        
         self.navigationController?.navigationBar.topItem?.setLeftBarButton(menuBarButtonItem, animated: true)
     }
     
