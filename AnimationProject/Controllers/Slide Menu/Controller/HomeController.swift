@@ -23,9 +23,6 @@ class HomeController: UIViewController {
         configureNavigationBar()
         
         view.backgroundColor = .white
-        
-//        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleMenuToggle)))
-//        view.addGestureRecognizer(UISwipeGestureRecognizer(target: self, action: #selector(handleMenuToggle)))
     }
     
     // MARK: - Handlers
