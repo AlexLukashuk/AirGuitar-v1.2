@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WQU-Me-vBW">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tuner-->
+        <scene sceneID="d40-gi-vEz">
+            <objects>
+                <viewController id="WQU-Me-vBW" customClass="TunerViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cyw-cC-VsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="how-to-draw-guitar-chords-a-body-cartoon-from-coco-1084x1681 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="l9m-Nf-o5u">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Yx-dr-lBT">
+                                <rect key="frame" x="160" y="44" width="5.6666666666666572" height="545"/>
+                                <color key="backgroundColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="5.5" id="Q54-fS-b60"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GoH-9B-1ky">
+                                <rect key="frame" x="170" y="44" width="5" height="545"/>
+                                <color key="backgroundColor" red="0.46150420980000001" green="0.016727559400000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="5" id="fig-Ic-hNd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLZ-gb-O1n" userLabel="Third String">
+                                <rect key="frame" x="181" y="44" width="4.6666666666666572" height="545"/>
+                                <color key="backgroundColor" red="0.55863422920000005" green="0.02024810837" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="4.5" id="ucO-n3-Jlh"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8TD-uY-3QW">
+                                <rect key="frame" x="192" y="44" width="4" height="545"/>
+                                <color key="backgroundColor" red="0.65335573179999995" green="0.023681358869999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="4" id="wa1-vv-Np2"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2vq-KW-4aX" userLabel="Fifth String">
+                                <rect key="frame" x="203" y="44" width="3.6666666666666572" height="545"/>
+                                <color key="backgroundColor" red="0.78232270069999998" green="0.028355861480000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="3.5" id="rX0-kC-pBP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TkW-kb-g18">
+                                <rect key="frame" x="212.66666666666666" y="44" width="3" height="545"/>
+                                <color key="backgroundColor" red="1" green="0.03624573524" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="3" id="5mr-BK-Zoj"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guitar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TN-sS-yNx">
+                                <rect key="frame" x="10" y="54" width="139.66666666666666" height="52"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="45"/>
+                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cL-FT-Ybj">
+                                <rect key="frame" x="233" y="54" width="132" height="52"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="45"/>
+                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69353141190000001" green="0.1987422184" blue="0.24446274270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HTD-6V-cUy" firstAttribute="trailing" secondItem="8cL-FT-Ybj" secondAttribute="trailing" constant="10" id="4hj-3l-VW0"/>
+                            <constraint firstItem="HTD-6V-cUy" firstAttribute="bottom" secondItem="TkW-kb-g18" secondAttribute="bottom" constant="189" id="BiW-gi-JD1"/>
+                            <constraint firstItem="l9m-Nf-o5u" firstAttribute="trailing" secondItem="HTD-6V-cUy" secondAttribute="trailing" id="CYi-n0-hqY"/>
+                            <constraint firstItem="8cL-FT-Ybj" firstAttribute="top" secondItem="HTD-6V-cUy" secondAttribute="top" constant="10" id="EQv-qh-Bs3"/>
+                            <constraint firstItem="2TN-sS-yNx" firstAttribute="leading" secondItem="HTD-6V-cUy" secondAttribute="leading" constant="10" id="GWB-vJ-fNN"/>
+                            <constraint firstItem="2vq-KW-4aX" firstAttribute="leading" secondItem="8TD-uY-3QW" secondAttribute="trailing" constant="7" id="HaF-8R-4xL"/>
+                            <constraint firstItem="8Yx-dr-lBT" firstAttribute="top" secondItem="HTD-6V-cUy" secondAttribute="top" id="Jcl-hf-c7w"/>
+                            <constraint firstItem="8cL-FT-Ybj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TkW-kb-g18" secondAttribute="trailing" constant="8" symbolic="YES" id="Mf3-Q9-FZB"/>
+                            <constraint firstItem="GoH-9B-1ky" firstAttribute="top" secondItem="HTD-6V-cUy" secondAttribute="top" id="Nj5-hc-tSw"/>
+                            <constraint firstItem="HTD-6V-cUy" firstAttribute="bottom" secondItem="wLZ-gb-O1n" secondAttribute="bottom" constant="189" id="Oce-7H-zuU"/>
+                            <constraint firstItem="HTD-6V-cUy" firstAttribute="bottom" secondItem="GoH-9B-1ky" secondAttribute="bottom" constant="189" id="PIw-pi-WcQ"/>
+                            <constraint firstItem="HTD-6V-cUy" firstAttribute="bottom" secondItem="8TD-uY-3QW" secondAttribute="bottom" constant="189" id="R7q-pt-A9Y"/>
+                            <constraint firstItem="wLZ-gb-O1n" firstAttribute="leading" secondItem="GoH-9B-1ky" secondAttribute="trailing" constant="6" id="SLB-wO-pzJ"/>
+                            <constraint firstItem="l9m-Nf-o5u" firstAttribute="bottom" secondItem="HTD-6V-cUy" secondAttribute="bottom" id="Vqe-7i-1jK"/>
+                            <constraint firstItem="2vq-KW-4aX" firstAttribute="top" secondItem="HTD-6V-cUy" secondAttribute="top" id="VsE-ZV-5os"/>
+                            <constraint firstItem="8TD-uY-3QW" firstAttribute="leading" secondItem="wLZ-gb-O1n" secondAttribute="trailing" constant="6.5" id="WKd-aY-m03"/>
+                            <constraint firstItem="2TN-sS-yNx" firstAttribute="top" secondItem="HTD-6V-cUy" secondAttribute="top" constant="10" id="XfT-6Y-fyw"/>
+                            <constraint firstItem="HTD-6V-cUy" firstAttribute="bottom" secondItem="8Yx-dr-lBT" secondAttribute="bottom" constant="189" id="Xvc-TS-utU"/>
+                            <constraint firstItem="TkW-kb-g18" firstAttribute="leading" secondItem="2vq-KW-4aX" secondAttribute="trailing" constant="6" id="ac7-xG-08p"/>
+                            <constraint firstItem="HTD-6V-cUy" firstAttribute="bottom" secondItem="2vq-KW-4aX" secondAttribute="bottom" constant="189" id="eNw-vZ-WDn"/>
+                            <constraint firstItem="l9m-Nf-o5u" firstAttribute="top" secondItem="HTD-6V-cUy" secondAttribute="top" id="gqB-AA-7YR"/>
+                            <constraint firstItem="l9m-Nf-o5u" firstAttribute="leading" secondItem="HTD-6V-cUy" secondAttribute="leading" id="hrt-GC-KOJ"/>
+                            <constraint firstItem="wLZ-gb-O1n" firstAttribute="top" secondItem="HTD-6V-cUy" secondAttribute="top" id="iK4-Z6-wVW"/>
+                            <constraint firstItem="8TD-uY-3QW" firstAttribute="top" secondItem="HTD-6V-cUy" secondAttribute="top" id="iSi-uZ-BaZ"/>
+                            <constraint firstItem="8Yx-dr-lBT" firstAttribute="leading" secondItem="HTD-6V-cUy" secondAttribute="leading" constant="160" id="jgU-ls-ORE"/>
+                            <constraint firstItem="TkW-kb-g18" firstAttribute="top" secondItem="HTD-6V-cUy" secondAttribute="top" id="m4W-BR-GG4"/>
+                            <constraint firstItem="GoH-9B-1ky" firstAttribute="leading" secondItem="8Yx-dr-lBT" secondAttribute="trailing" constant="4.5" id="rLF-HE-ogj"/>
+                            <constraint firstItem="8Yx-dr-lBT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2TN-sS-yNx" secondAttribute="trailing" constant="8" symbolic="YES" id="xkX-1n-jzw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HTD-6V-cUy"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tuner" image="tuningfork" catalog="system" id="6aa-zm-ErK"/>
+                    <navigationItem key="navigationItem" title="Tuner" id="G22-mi-OV1"/>
+                    <connections>
+                        <outlet property="fifthString" destination="2vq-KW-4aX" id="EZs-K2-lvj"/>
+                        <outlet property="firstString" destination="8Yx-dr-lBT" id="aop-RI-o3v"/>
+                        <outlet property="fouthString" destination="8TD-uY-3QW" id="4KH-0q-a91"/>
+                        <outlet property="secondString" destination="GoH-9B-1ky" id="dpP-kB-4PY"/>
+                        <outlet property="sixthString" destination="TkW-kb-g18" id="JD5-2U-zMc"/>
+                        <outlet property="thirdString" destination="wLZ-gb-O1n" id="j09-nE-bbz"/>
+                        <outlet property="tunerTabBarItem" destination="6aa-zm-ErK" id="WJ2-bQ-3pL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LMD-r9-xmR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2084" y="-995"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="how-to-draw-guitar-chords-a-body-cartoon-from-coco-1084x1681 (1)" width="1084" height="1681"/>
+        <image name="tuningfork" catalog="system" width="64" height="58"/>
+    </resources>
+</document>

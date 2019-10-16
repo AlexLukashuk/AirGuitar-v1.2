@@ -86,13 +86,13 @@ extension TabsViewController: UICollectionViewDataSource, UICollectionViewDelega
 
 extension TabsViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30)
+        return UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let bounds = collectionView.bounds
         
-        return CGSize(width: bounds.width / 2 - 50, height: bounds.height / 4)
+        return CGSize(width: bounds.width / 2 - 30, height: bounds.height / 3 - 50)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {

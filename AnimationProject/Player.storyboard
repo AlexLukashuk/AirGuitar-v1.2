@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i9a-Bj-pgq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Player-->
+        <scene sceneID="wRb-Lb-Kkk">
+            <objects>
+                <viewController id="i9a-Bj-pgq" customClass="PlayerViewController" customModule="AnimationProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zTZ-v8-EnQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k55-LQ-Y9m">
+                                <rect key="frame" x="0.0" y="44" width="414" height="2906"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C1J-UH-eHO">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2741"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TT-3e-myB">
+                                                <rect key="frame" x="15" y="15" width="384" height="52"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="45"/>
+                                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volume:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Luy-hf-qM5">
+                                                <rect key="frame" x="25" y="82" width="364" height="24"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="asG-Jl-gg7">
+                                                <rect key="frame" x="13" y="111" width="388" height="31"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="WAR-3X-vmb"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="volumeValueChanged:" destination="i9a-Bj-pgq" eventType="valueChanged" id="xDR-Ry-pJI"/>
+                                                </connections>
+                                            </slider>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MetallicaPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="6oZ-Wp-Ps1">
+                                                <rect key="frame" x="27" y="166" width="360" height="360"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="FMg-2D-scD"/>
+                                                    <constraint firstAttribute="height" constant="360" id="a13-DA-wa5"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metallica - Nothing else matters" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8j-3i-wux">
+                                                <rect key="frame" x="5" y="536" width="404" height="80"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="b0B-h4-7kM"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
+                                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqh-nB-sSL">
+                                                <rect key="frame" x="50" y="621" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="mLn-c7-aP0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Play ▶️">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playMetallicaButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="vIj-gf-yJD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmL-aV-lwd">
+                                                <rect key="frame" x="212" y="621" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="Zdc-To-Pj5"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Pause ⏸">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="pauseButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="6Ls-rj-xuZ"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NirvanaPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="Qkn-Yt-J9G">
+                                                <rect key="frame" x="27" y="686" width="360" height="360"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="d2F-Hq-Vkq"/>
+                                                    <constraint firstAttribute="height" constant="360" id="fRr-bb-892"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nirvana - Smells like teen spirit" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yd-2y-4to">
+                                                <rect key="frame" x="5" y="1056" width="404" height="80"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="llo-qo-wYJ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
+                                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fT7-bb-BF1">
+                                                <rect key="frame" x="50" y="1141" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="zUF-gX-Zck"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Play ▶️">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playNirvanaButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="vhi-Rv-GDt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7CU-rJ-eqh">
+                                                <rect key="frame" x="212" y="1141" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Pause ⏸">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="pauseButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="n1k-PY-iau"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="acdcPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="8u3-XY-mSS">
+                                                <rect key="frame" x="27" y="1206" width="360" height="360"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="xon-pD-Nku"/>
+                                                    <constraint firstAttribute="height" constant="360" id="ytK-oM-UZW"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AC/DC - Back in black" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4Y-Yy-biS">
+                                                <rect key="frame" x="5" y="1576" width="404" height="80"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="jdB-5I-5op"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
+                                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njs-7m-6eO">
+                                                <rect key="frame" x="50" y="1661" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Play ▶️">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playAcDcButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="2PF-rx-moV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4I-DQ-YpR">
+                                                <rect key="frame" x="212" y="1661" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Pause ⏸">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="pauseButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="pHp-4f-Pfd"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TheRollingStonesPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="uIB-Ru-mLp">
+                                                <rect key="frame" x="27" y="1726" width="360" height="360"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="6T9-Lp-Ebj"/>
+                                                    <constraint firstAttribute="height" constant="360" id="FDx-LY-QSY"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rolling Stones - Paint it black" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fG5-3X-SPL">
+                                                <rect key="frame" x="5" y="2096" width="404" height="80"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="H2E-dE-x2f"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
+                                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSX-J4-ExN">
+                                                <rect key="frame" x="50" y="2181" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Play ▶️">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playRollingStonesButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="31R-LR-TYX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOO-d6-nbf">
+                                                <rect key="frame" x="212" y="2181" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Pause ⏸">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="pauseButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="DdP-sZ-0Pn"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BeatlesPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="uwI-0n-87f">
+                                                <rect key="frame" x="27" y="2246" width="360" height="360"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="CpO-5b-7rK"/>
+                                                    <constraint firstAttribute="height" constant="360" id="qIa-Kk-u2s"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Beatles - Let it be" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGb-1v-tdp">
+                                                <rect key="frame" x="5" y="2616" width="404" height="80"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="tXD-nx-dVu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
+                                                <color key="textColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p93-fh-iB5">
+                                                <rect key="frame" x="50" y="2701" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="uj2-Wr-ENP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Play ▶️">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playTheBeatlesButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="nYR-79-1Ii"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0g-cu-xM0">
+                                                <rect key="frame" x="212" y="2701" width="152" height="30"/>
+                                                <color key="backgroundColor" red="0.50850064770000003" green="0.14661057729999999" blue="0.177384293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="aMe-m5-JWK"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                                <state key="normal" title="Pause ⏸">
+                                                    <color key="titleColor" red="0.30144915799999999" green="0.01092624637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="pauseButtonTouched:" destination="i9a-Bj-pgq" eventType="touchUpInside" id="bjU-JG-7hD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.69353141190000001" green="0.1987422184" blue="0.24446274270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="7CU-rJ-eqh" firstAttribute="leading" relation="lessThanOrEqual" secondItem="fT7-bb-BF1" secondAttribute="trailing" constant="10" id="2EU-Bm-TvN"/>
+                                            <constraint firstItem="jSX-J4-ExN" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="50" id="2Ek-p7-1MP"/>
+                                            <constraint firstAttribute="trailing" secondItem="pmL-aV-lwd" secondAttribute="trailing" constant="50" id="2Nu-Qx-0Gr"/>
+                                            <constraint firstAttribute="trailing" secondItem="y4Y-Yy-biS" secondAttribute="trailing" constant="5" id="2Y1-mo-Bw8"/>
+                                            <constraint firstItem="6TT-3e-myB" firstAttribute="top" secondItem="C1J-UH-eHO" secondAttribute="top" constant="15" id="2bZ-gN-C3c"/>
+                                            <constraint firstItem="p93-fh-iB5" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="50" id="2go-CH-GCc"/>
+                                            <constraint firstItem="b0g-cu-xM0" firstAttribute="width" secondItem="p93-fh-iB5" secondAttribute="width" id="4DG-fb-zbE"/>
+                                            <constraint firstItem="njs-7m-6eO" firstAttribute="top" secondItem="y4Y-Yy-biS" secondAttribute="bottom" constant="5" id="5KN-MU-mfm"/>
+                                            <constraint firstItem="wOO-d6-nbf" firstAttribute="width" secondItem="jSX-J4-ExN" secondAttribute="width" id="5Qk-aE-r9x"/>
+                                            <constraint firstItem="b0g-cu-xM0" firstAttribute="top" secondItem="hGb-1v-tdp" secondAttribute="bottom" constant="5" id="6Am-aS-nQ4"/>
+                                            <constraint firstItem="uwI-0n-87f" firstAttribute="top" secondItem="jSX-J4-ExN" secondAttribute="bottom" constant="35" id="7Fa-eX-ZEe"/>
+                                            <constraint firstItem="y8j-3i-wux" firstAttribute="top" secondItem="6oZ-Wp-Ps1" secondAttribute="bottom" constant="10" id="8Py-nM-Aox"/>
+                                            <constraint firstItem="hGb-1v-tdp" firstAttribute="top" secondItem="uwI-0n-87f" secondAttribute="bottom" constant="10" id="8nS-Ys-0c4"/>
+                                            <constraint firstItem="p4I-DQ-YpR" firstAttribute="top" secondItem="y4Y-Yy-biS" secondAttribute="bottom" constant="5" id="9cV-ax-rdk"/>
+                                            <constraint firstItem="asG-Jl-gg7" firstAttribute="top" secondItem="Luy-hf-qM5" secondAttribute="bottom" constant="5" id="Adh-1G-IOu"/>
+                                            <constraint firstAttribute="trailing" secondItem="wOO-d6-nbf" secondAttribute="trailing" constant="50" id="Cch-yg-R9q"/>
+                                            <constraint firstItem="Lqh-nB-sSL" firstAttribute="top" secondItem="y8j-3i-wux" secondAttribute="bottom" constant="5" id="CpI-OH-vro"/>
+                                            <constraint firstAttribute="trailing" secondItem="7CU-rJ-eqh" secondAttribute="trailing" constant="50" id="D52-pC-P7B"/>
+                                            <constraint firstItem="Qkn-Yt-J9G" firstAttribute="top" secondItem="Lqh-nB-sSL" secondAttribute="bottom" constant="35" id="Gzs-8d-3gk"/>
+                                            <constraint firstItem="7CU-rJ-eqh" firstAttribute="width" secondItem="fT7-bb-BF1" secondAttribute="width" id="Jcw-o1-ovG"/>
+                                            <constraint firstItem="asG-Jl-gg7" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="15" id="KDU-Xc-46A"/>
+                                            <constraint firstItem="fG5-3X-SPL" firstAttribute="top" secondItem="uIB-Ru-mLp" secondAttribute="bottom" constant="10" id="KRg-du-awj"/>
+                                            <constraint firstItem="p4I-DQ-YpR" firstAttribute="width" secondItem="njs-7m-6eO" secondAttribute="width" id="KUF-HT-YPD"/>
+                                            <constraint firstAttribute="trailing" secondItem="Luy-hf-qM5" secondAttribute="trailing" constant="25" id="KVE-dP-TFi"/>
+                                            <constraint firstItem="pmL-aV-lwd" firstAttribute="width" secondItem="Lqh-nB-sSL" secondAttribute="width" id="Lji-eL-Sbi"/>
+                                            <constraint firstItem="1Yd-2y-4to" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="5" id="MK7-k4-3kH"/>
+                                            <constraint firstItem="pmL-aV-lwd" firstAttribute="leading" relation="lessThanOrEqual" secondItem="Lqh-nB-sSL" secondAttribute="trailing" constant="10" id="MmI-1b-lyJ"/>
+                                            <constraint firstItem="wOO-d6-nbf" firstAttribute="top" secondItem="fG5-3X-SPL" secondAttribute="bottom" constant="5" id="MqU-O4-iUi"/>
+                                            <constraint firstAttribute="trailing" secondItem="1Yd-2y-4to" secondAttribute="trailing" constant="5" id="N5o-QS-hM8"/>
+                                            <constraint firstItem="pmL-aV-lwd" firstAttribute="top" secondItem="y8j-3i-wux" secondAttribute="bottom" constant="5" id="ORt-Li-7Ps"/>
+                                            <constraint firstItem="8u3-XY-mSS" firstAttribute="top" secondItem="fT7-bb-BF1" secondAttribute="bottom" constant="35" id="PT4-HA-k9R"/>
+                                            <constraint firstAttribute="trailing" secondItem="b0g-cu-xM0" secondAttribute="trailing" constant="50" id="Ps9-Rw-ZDM"/>
+                                            <constraint firstItem="y4Y-Yy-biS" firstAttribute="top" secondItem="8u3-XY-mSS" secondAttribute="bottom" constant="10" id="Q63-nY-4DZ"/>
+                                            <constraint firstItem="uIB-Ru-mLp" firstAttribute="centerX" secondItem="C1J-UH-eHO" secondAttribute="centerX" id="QdU-0A-HoT"/>
+                                            <constraint firstItem="fT7-bb-BF1" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="50" id="Qy5-9a-LYS"/>
+                                            <constraint firstItem="b0g-cu-xM0" firstAttribute="leading" relation="lessThanOrEqual" secondItem="p93-fh-iB5" secondAttribute="trailing" constant="10" id="RHi-Ox-X08"/>
+                                            <constraint firstItem="p93-fh-iB5" firstAttribute="top" secondItem="hGb-1v-tdp" secondAttribute="bottom" constant="5" id="SR6-bm-ZOE"/>
+                                            <constraint firstItem="hGb-1v-tdp" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="5" id="WIv-SV-cZc"/>
+                                            <constraint firstAttribute="trailing" secondItem="p4I-DQ-YpR" secondAttribute="trailing" constant="50" id="ZZO-sb-NFi"/>
+                                            <constraint firstItem="Qkn-Yt-J9G" firstAttribute="centerX" secondItem="C1J-UH-eHO" secondAttribute="centerX" id="aO0-dL-fc2"/>
+                                            <constraint firstItem="Lqh-nB-sSL" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="50" id="bZX-lT-sJv"/>
+                                            <constraint firstAttribute="bottom" secondItem="b0g-cu-xM0" secondAttribute="bottom" constant="10" id="ccU-1b-n5Z"/>
+                                            <constraint firstItem="uIB-Ru-mLp" firstAttribute="top" secondItem="njs-7m-6eO" secondAttribute="bottom" constant="35" id="da1-yP-opq"/>
+                                            <constraint firstAttribute="trailing" secondItem="fG5-3X-SPL" secondAttribute="trailing" constant="5" id="fXL-7f-KE5"/>
+                                            <constraint firstItem="y8j-3i-wux" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="5" id="fjE-Rq-RkV"/>
+                                            <constraint firstAttribute="trailing" secondItem="6TT-3e-myB" secondAttribute="trailing" constant="15" id="fyc-sX-2uH"/>
+                                            <constraint firstItem="7CU-rJ-eqh" firstAttribute="top" secondItem="1Yd-2y-4to" secondAttribute="bottom" constant="5" id="gyu-8I-dfh"/>
+                                            <constraint firstItem="jSX-J4-ExN" firstAttribute="top" secondItem="fG5-3X-SPL" secondAttribute="bottom" constant="5" id="hW1-ir-FD6"/>
+                                            <constraint firstAttribute="trailing" secondItem="y8j-3i-wux" secondAttribute="trailing" constant="5" id="jGI-Sj-LUs"/>
+                                            <constraint firstItem="8u3-XY-mSS" firstAttribute="centerX" secondItem="C1J-UH-eHO" secondAttribute="centerX" id="jGk-Ob-aAC"/>
+                                            <constraint firstItem="6oZ-Wp-Ps1" firstAttribute="top" secondItem="asG-Jl-gg7" secondAttribute="bottom" constant="25" id="mOi-iT-uGx"/>
+                                            <constraint firstItem="uwI-0n-87f" firstAttribute="centerX" secondItem="C1J-UH-eHO" secondAttribute="centerX" id="nfr-Se-OxA"/>
+                                            <constraint firstItem="Luy-hf-qM5" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="25" id="om1-p3-1EK"/>
+                                            <constraint firstItem="Luy-hf-qM5" firstAttribute="top" secondItem="6TT-3e-myB" secondAttribute="bottom" constant="15" id="sBS-O5-Ywy"/>
+                                            <constraint firstItem="6oZ-Wp-Ps1" firstAttribute="centerX" secondItem="C1J-UH-eHO" secondAttribute="centerX" id="sIb-fw-jcf"/>
+                                            <constraint firstAttribute="trailing" secondItem="asG-Jl-gg7" secondAttribute="trailing" constant="15" id="sep-r0-Wq7"/>
+                                            <constraint firstItem="1Yd-2y-4to" firstAttribute="top" secondItem="Qkn-Yt-J9G" secondAttribute="bottom" constant="10" id="uCD-5P-g66"/>
+                                            <constraint firstItem="njs-7m-6eO" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="50" id="vck-fM-8uM"/>
+                                            <constraint firstItem="y4Y-Yy-biS" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="5" id="wAc-jF-LO7"/>
+                                            <constraint firstItem="6TT-3e-myB" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="15" id="wUu-gW-Lee"/>
+                                            <constraint firstItem="wOO-d6-nbf" firstAttribute="leading" relation="lessThanOrEqual" secondItem="jSX-J4-ExN" secondAttribute="trailing" constant="10" id="wxS-H1-akV"/>
+                                            <constraint firstItem="p4I-DQ-YpR" firstAttribute="leading" relation="lessThanOrEqual" secondItem="njs-7m-6eO" secondAttribute="trailing" constant="10" id="xJE-pl-W3r"/>
+                                            <constraint firstAttribute="trailing" secondItem="hGb-1v-tdp" secondAttribute="trailing" constant="5" id="y1y-Md-IiE"/>
+                                            <constraint firstItem="fT7-bb-BF1" firstAttribute="top" secondItem="1Yd-2y-4to" secondAttribute="bottom" constant="5" id="yfq-Mf-ins"/>
+                                            <constraint firstItem="fG5-3X-SPL" firstAttribute="leading" secondItem="C1J-UH-eHO" secondAttribute="leading" constant="5" id="zu4-uB-37q"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="C1J-UH-eHO" secondAttribute="trailing" id="Dx0-ot-FH4"/>
+                                    <constraint firstAttribute="bottom" secondItem="C1J-UH-eHO" secondAttribute="bottom" id="Jfn-vm-9Pi"/>
+                                    <constraint firstItem="C1J-UH-eHO" firstAttribute="leading" secondItem="k55-LQ-Y9m" secondAttribute="leading" id="Xtl-jf-sIN"/>
+                                    <constraint firstItem="C1J-UH-eHO" firstAttribute="top" secondItem="k55-LQ-Y9m" secondAttribute="top" id="unA-6f-LKR"/>
+                                    <constraint firstItem="C1J-UH-eHO" firstAttribute="width" secondItem="k55-LQ-Y9m" secondAttribute="width" id="xc3-dY-Bsh"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69353141190000001" green="0.1987422184" blue="0.24446274270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="k55-LQ-Y9m" firstAttribute="trailing" secondItem="OQ3-jQ-f0u" secondAttribute="trailing" id="1yN-T2-Kx6"/>
+                            <constraint firstItem="k55-LQ-Y9m" firstAttribute="leading" secondItem="OQ3-jQ-f0u" secondAttribute="leading" id="8ae-cp-ao8"/>
+                            <constraint firstItem="k55-LQ-Y9m" firstAttribute="top" secondItem="OQ3-jQ-f0u" secondAttribute="top" id="NYf-ob-VDa"/>
+                            <constraint firstAttribute="bottom" secondItem="k55-LQ-Y9m" secondAttribute="bottom" id="dyJ-XC-1Gg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OQ3-jQ-f0u"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Player" image="play.circle" catalog="system" badgeValue="5" id="r6m-dx-yyt">
+                        <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Player" id="9Sb-Lt-xbz"/>
+                    <size key="freeformSize" width="414" height="2950"/>
+                    <connections>
+                        <outlet property="backView" destination="C1J-UH-eHO" id="yMD-vR-ITe"/>
+                        <outlet property="playerTabBarItem" destination="r6m-dx-yyt" id="TwF-1w-027"/>
+                        <outlet property="volumeSlider" destination="asG-Jl-gg7" id="Om4-7x-2p1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aTw-Gn-Tzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2838" y="-1734"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BeatlesPhoto" width="1280" height="1280"/>
+        <image name="MetallicaPhoto" width="360" height="360"/>
+        <image name="NirvanaPhoto" width="640" height="640"/>
+        <image name="TheRollingStonesPhoto" width="770" height="770"/>
+        <image name="acdcPhoto" width="800" height="800"/>
+        <image name="play.circle" catalog="system" width="64" height="62"/>
+    </resources>
+</document>
